@@ -1,0 +1,90 @@
+[
+  {
+    "project_id": "aluraMidi",
+    "course": "Starting in programming",
+    "thumb": "https://kelwynoliveira.github.io/aluramidi/thumb.PNG",
+    "project_name": "Alura Midi",
+    "school": "Alura",
+    "link_course": "https://www.alura.com.br/formacao-programacao",
+    "certificate": "https://drive.google.com/file/d/1rgvCQ9fEeQ2nFhw6UTWae6TqlqTnG3m8/view",
+    "url": "https://kelwynoliveira.github.io/aluramidi/index.html",
+    "technolgies": "HTML, CSS, JavaScript"
+  },
+  {
+    "project_id": "Bikcraft",
+    "course": "HTML e CSS para Iniciantes",
+    "thumb": "/courses/projects/Origamid/HTML e CSS para iniciantes/Bikcraft/thumb.PNG",
+    "project_name": "Bikcraft",
+    "school": "Origamid",
+    "link_course": "https://www.origamid.com/curso/html-e-css-para-iniciantes",
+    "certificate": "https://drive.google.com/file/d/1KmnK-zubdWSsoQQGf8b2FAV9bZqVgoUO/view",
+    "url": "/courses/projects/Origamid/HTML e CSS para iniciantes/Bikcraft/index.html",
+    "technolgies": "HTML, CSS"
+  },
+  {
+    "project_id": "LoboPortfolio",
+    "course": "HTML e CSS para Iniciantes",
+    "thumb": "/courses/projects/Origamid/HTML e CSS para iniciantes/Portfolio/thumb.PNG",
+    "project_name": "Lobo - Portfolio",
+    "school": "Origamid",
+    "link_course": "https://www.origamid.com/curso/html-e-css-para-iniciantes",
+    "certificate": "https://drive.google.com/file/d/1KmnK-zubdWSsoQQGf8b2FAV9bZqVgoUO/view",
+    "url": "/courses/projects/Origamid/HTML e CSS para iniciantes/Portfolio/index.html",
+    "technolgies": "HTML, CSS"
+  },
+  {
+    "project_id": "FlexBlog",
+    "course": "CSS Flexbox",
+    "thumb": "/courses/projects/Origamid/FlexBox/thumb.PNG",
+    "project_name": "FlexBlog",
+    "school": "Origamid",
+    "link_course": "https://www.origamid.com/curso/css-flexbox",
+    "certificate": "https://drive.google.com/file/d/12OmGDoJEFGxdzmWXizsLgPpIXm8LRL4S/view",
+    "url": "/courses/projects/Origamid/FlexBox/index.html",
+    "technolgies": "HTML, CSS"
+  },
+  {
+    "project_id": "Wildbeast",
+    "course": "CSS Grid Layout",
+    "thumb": "/courses/projects/Origamid/Grid/thumb.PNG",
+    "project_name": "Wildbeast",
+    "school": "Origamid",
+    "link_course": "https://www.origamid.com/curso/css-grid-layout",
+    "certificate": "https://drive.google.com/file/d/1WtOyzPDjVH6kHMVlmLnnSh9-M_RxcQFx/view",
+    "url": "/courses/projects/Origamid/Grid/index.html",
+    "technolgies": "HTML, CSS"
+  },
+  {
+    "project_id": "buttonCreator",
+    "course": "JavaScript Completo ES6",
+    "thumb": "/courses/projects/Origamid/JavaScript/button-creator/thumb.PNG",
+    "project_name": "Button creator",
+    "school": "Origamid",
+    "link_course": "https://www.origamid.com/curso/javascript-completo-es6/",
+    "certificate": "https://drive.google.com/file/d/1JHBtJiXVvI38YR4r4t-32_vVImI8nGxY/view",
+    "url": "/courses/projects/Origamid/JavaScript/button-creator/index.html",
+    "technolgies": "HTML, CSS, JavaScript"
+  },
+  {
+    "project_id": "Slide",
+    "course": "JavaScript Completo ES6",
+    "thumb": "/courses/projects/Origamid/JavaScript/Slide/thumb.PNG",
+    "project_name": "Slide",
+    "school": "Origamid",
+    "link_course": "https://www.origamid.com/curso/javascript-completo-es6/",
+    "certificate": "https://drive.google.com/file/d/1JHBtJiXVvI38YR4r4t-32_vVImI8nGxY/view",
+    "url": "/courses/projects/Origamid/JavaScript/Slide/index.html",
+    "technolgies": "HTML, CSS, JavaScript"
+  },
+  {
+    "project_id": "AnimaisFantasticos",
+    "course": "JavaScript Completo ES6",
+    "thumb": "/courses/projects/Origamid/JavaScript/animais fantasticos/thumb.PNG",
+    "project_name": "Animais Fantasticos",
+    "school": "Origamid",
+    "link_course": "https://www.origamid.com/curso/javascript-completo-es6/",
+    "certificate": "https://drive.google.com/file/d/1JHBtJiXVvI38YR4r4t-32_vVImI8nGxY/view",
+    "url": "/courses/projects/Origamid/JavaScript/animais fantasticos/index.html",
+    "technolgies": "HTML, CSS, JavaScript"
+  }
+]
