@@ -1,9 +1,9 @@
 - social: "LinkedIn"
   url: "https://linkedin.com/in/kelwynoliveira"
-  imgSrc: "/assets/social-icons/LinkedIn.svg"
+  imgSrc: "'/assets/social-icons/LinkedIn.svg' | relative_url"
   imgAlt: "LinkedIn Logo"
 
 - social: "GitHub"
   url: "https://github.com/kelwynOliveira"
-  imgSrc: "/assets/social-icons/GitHub.svg"
+  imgSrc: "'/assets/social-icons/GitHub.svg' | relative_url"
   imgAlt: "GitHub Logo"
