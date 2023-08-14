@@ -21,5 +21,7 @@ export default function initFetchCourses() {
     }
   }
 
-  fetchCourses("/assets/data/coursesProjectsapi.json");
+  fetchCourses(
+    "https://kelwynoliveira.github.io/Assets/data/coursesProjectsapi.json"
+  );
 }

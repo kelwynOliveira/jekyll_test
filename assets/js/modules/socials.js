@@ -22,5 +22,5 @@ export default function initFetchSocials() {
     }
   }
 
-  fetchSocials("/assets/data/socialsapi.json");
+  fetchSocials("https://kelwynoliveira.github.io/Assets/data/socialsapi.json");
 }
