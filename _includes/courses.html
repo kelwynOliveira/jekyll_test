@@ -1,0 +1,11 @@
+<ul class="projects-list" data-list="projects">
+  {% for course in site.data.coursesProjectsapi %}
+  <li>
+    <a href="{{course.url}}" target="_blank">
+      <img class="thumb" src="{{course.thumb}}" alt="{{course.project_name}}">
+      <p>Project name: <span>{{course.project_name}}</span></p>
+      <p>Technologies: <span>{{course.technolgies}}</span></p>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

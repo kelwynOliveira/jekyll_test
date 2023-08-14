@@ -1,0 +1,9 @@
+- social: "LinkedIn"
+  url: "https://linkedin.com/in/kelwynoliveira"
+  imgSrc: "/assets/social-icons/LinkedIn.svg"
+  imgAlt: "LinkedIn Logo"
+
+- social: "GitHub"
+  url: "https://github.com/kelwynOliveira"
+  imgSrc: "/assets/social-icons/GitHub.svg"
+  imgAlt: "GitHub Logo"
