@@ -80,15 +80,18 @@ h1.title {
   flex-direction: column;
   gap: 2rem;
 }
-.project-container {
+.project-container,
+.experience-container {
   display: flex;
   gap: 16px;
 }
-.project-img-container img {
+.project-img-container img,
+.experience-img-container img {
   width: 40px;
   height: 40px;
 }
-.project-title {
+.project-title,
+.experience-title {
   margin-top: 7px;
   margin-bottom: 20px;
   font-family: Poppins;
@@ -99,7 +102,9 @@ h1.title {
   font-family: "Roboto";
   line-height: 1.5;
 }
-.project-date {
+.project-date,
+.experience-place,
+.experience-date {
   font-family: "Roboto";
   line-height: 1.5;
   font-size: 0.875rem;
@@ -180,6 +185,33 @@ h1.title {
   font-family: "Roboto";
   line-height: 1.5;
   color: var(--color-6);
+}
+
+/* Experiences */
+.experiences-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.experience-role-title {
+  font-family: "Roboto";
+  line-height: 1.5;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.experience-activities-list {
+  list-style-type: disclosure-closed;
+  margin-left: 1.5rem;
+  font-family: "Roboto";
+  line-height: 1.5;
+}
+.experience-activities-list li {
+  color: var(--color-4);
 }
 
 /* Header and Footer */

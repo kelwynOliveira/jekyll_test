@@ -1,0 +1,73 @@
+---
+title: Experiences
+permalink: experiences
+lang: en
+---
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <div class="body-container">
+
+    <main class="experience-main">
+      <h1 class="title">{{ page.title }}</h1>
+
+
+      <section class="section-item">
+        <div class="experiences-container">
+          <div class="experiences-container">
+
+            {% for experience in site.data.experiences %}
+
+            <h2 class="sub-title">{{ experience.title[page.lang]}}</h2>
+
+            {% for company in experience.experiences %}
+            <div class="experience-container">
+              <div class="experience-img-container">
+                <img src="{{company.logo}}" alt="{{company.enterprise}}">
+              </div>
+
+              <div>
+                <h5 class="experience-title">{{company.enterprise}}</h5>
+                <ul class="experience-list">
+
+                  {% for job in company.jobs %}
+                  <li>
+                    <span></span>
+                    <div class="">
+                      <p class="experience-role-title">{{ job[page.lang].title }}</p>
+                      <p class="experience-place">{{ job.place }}</p>
+                      <p class="experience-date">{{ job.start-date | date: "%b %Y"}} - {{ job.end-date | date: "%b %Y"}}</p>
+
+                      {% unless job[page.lang].description == "" %}
+                      <ul class="experience-activities-list">
+
+                        {% for activities in job[page.lang].description %}
+                        <li>{{ activities }}</li>
+                        {% endfor %}
+
+                      </ul>
+                      {% endunless %}
+                    </div>
+                  </li>
+                  {% endfor %}
+
+                </ul>
+              </div>
+            </div>
+            {% endfor %}
+
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+  </div>
+
+  {% include footer.html %}

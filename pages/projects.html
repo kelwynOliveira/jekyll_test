@@ -12,11 +12,11 @@ lang: en
 
   <div class="body-container">
 
-    <main class="home">
+    <main class="projects-main">
       <h1 class="title">{{ page.title }}</h1>
 
+      <!-- Projects - portfolio -->
       <section class="section-item">
-        <!-- Projects -->
         <ul class="projects-list" data-list="projects">
         </ul>
       </section>
@@ -31,7 +31,7 @@ lang: en
           {% for project in researchProject.projects %}
           <div class="project-container">
             <div class="project-img-container">
-              <img class="" src="{{ project.logo }}" alt="{{ project.place }}">
+              <img src="{{ project.logo }}" alt="{{ project.place }}">
             </div>
 
             <div>
@@ -40,7 +40,7 @@ lang: en
                 <li>
                   <div>
                     <p class="project-description">{{ project.project.description[page.lang].description }}</p>
-                    <p class="project-date">{{ project.project.start | date: "%b %y"}} - {{ project.project.end | date: "%b %y" }}</p>
+                    <p class="project-date">{{ project.project.start | date: "%b %Y"}} - {{ project.project.end | date: "%b %Y" }}</p>
                   </div>
                 </li>
               </ul>
