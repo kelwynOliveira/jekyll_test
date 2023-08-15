@@ -61,8 +61,52 @@ h1.title {
   color: var(--primary-color);
 }
 
-.projects-list {
+.section-item {
   margin-top: 96px;
+}
+.sub-title {
+  font-family: "Roboto";
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+/* projects */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.project-container {
+  display: flex;
+  gap: 16px;
+}
+.project-img-container img {
+  width: 40px;
+  height: 40px;
+}
+.project-title {
+  margin-top: 7px;
+  margin-bottom: 20px;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.project-description {
+  font-family: "Roboto";
+  line-height: 1.5;
+}
+.project-date {
+  font-family: "Roboto";
+  line-height: 1.5;
+  font-size: 0.875rem;
+  color: var(--color-6);
+  font-weight: 400;
+}
+.projects-list {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
@@ -97,6 +141,45 @@ h1.title {
 }
 .projects-list li:hover p span {
   text-decoration: underline;
+}
+
+/* Prizes */
+.prizes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.prize-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prize-certificate {
+  color: var(--primary-color);
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.36px;
+  line-height: 1.5;
+}
+.prize-certificate:hover {
+  filter: var(--filter);
+}
+.prize-certificate::after {
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  bottom: 8px;
+  background: url("https://kelwynoliveira.github.io/Assets/svg/portfolio/open_in_new.svg")
+    no-repeat center center;
+}
+.prize-place,
+.prize-type {
+  font-family: "Roboto";
+  line-height: 1.5;
+  color: var(--color-6);
 }
 
 /* Header and Footer */

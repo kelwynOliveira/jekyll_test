@@ -1,6 +1,7 @@
 ---
 title: Projects
 permalink: projects
+lang: en
 ---
 
 {% include head.html %}
@@ -11,13 +12,47 @@ permalink: projects
 
   <div class="body-container">
 
-    <div class="home">
-      <h1 class="title">Projects</h1>
+    <main class="home">
+      <h1 class="title">{{ page.title }}</h1>
 
-      <ul class="projects-list" data-list="projects">
-      </ul>
+      <section class="section-item">
+        <!-- Projects -->
+        <ul class="projects-list" data-list="projects">
+        </ul>
+      </section>
 
-    </div>
+      <!-- School projects -->
+      {% for researchProject in site.data.researchProjects %}
+
+      <section class="section-item">
+        <div class="projects-container">
+          <h2 class="sub-title">{{ researchProject.title[page.lang] }}</h2>
+
+          {% for project in researchProject.projects %}
+          <div class="project-container">
+            <div class="project-img-container">
+              <img class="" src="{{ project.logo }}" alt="{{ project.place }}">
+            </div>
+
+            <div>
+              <h5 class="project-title">{{ project.project.description[page.lang].title }}</h5>
+              <ul>
+                <li>
+                  <div>
+                    <p class="project-description">{{ project.project.description[page.lang].description }}</p>
+                    <p class="project-date">{{ project.project.start | date: "%b %y"}} - {{ project.project.end | date: "%b %y" }}</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          {% endfor %}
+
+        </div>
+      </section>
+      {% endfor %}
+
+    </main>
 
   </div>
 
