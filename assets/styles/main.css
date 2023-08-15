@@ -208,7 +208,7 @@ h1.title {
 }
 .experience-activities-list {
   list-style-type: disclosure-closed;
-  margin-left: 1.5rem;
+  margin-left: 20px;
   font-family: "Roboto";
   line-height: 1.5;
 }

@@ -45,6 +45,7 @@ lang: en
           <ul class="certifications-list">
 
             {% assign certification_by_date = certifications.courses | sort: "end | date" %}
+
             {% for certification in certification_by_date %}
             <li>
               <div class="certification-title-div">
