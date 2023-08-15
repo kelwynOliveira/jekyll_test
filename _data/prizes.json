@@ -1,0 +1,107 @@
+[
+  {
+    "certificate": "https://drive.google.com/file/d/1vF-eIMOHxErbjKUVUkgTUD0ISe-RVMYM/view",
+    "description": {
+      "pt": {
+        "title": "Urutau Aerodesign",
+        "place": "UEA",
+        "prize": "Honra ao mérito"
+      },
+      "en": {
+        "title": "Urutau Aerodesign",
+        "place": "UEA",
+        "prize": "Merit award"
+      }
+    }
+  },
+  {
+    "certificate": "https://drive.google.com/file/d/1r9JBjj0uQ3gcIRXxc64MOj_GaupI2P-o/view",
+    "description": {
+      "pt": {
+        "title": "XIX SAE Brasil Aerodesign",
+        "place": "SAE Brasil",
+        "prize": "Competition"
+      },
+      "en": {
+        "title": "XIX SAE Brasil Aerodesign",
+        "place": "SAE Brazil",
+        "prize": "Competition"
+      }
+    }
+  },
+  {
+    "certificate": "https://www.youtube.com/watch?v=bICmTVQnPWc&t=446s",
+    "description": {
+      "pt": {
+        "title": "Programa Câmera 13",
+        "place": "Programa de TV",
+        "prize": "Entrevista"
+      },
+      "en": {
+        "title": "Programa Câmera 13",
+        "place": "TV Show",
+        "prize": "Interview"
+      }
+    }
+  },
+  {
+    "certificate": "https://www.acritica.com/channels/cotidiano/news/universitarios-do-amazonas-constroem-aeronave-para-competicao-nacional-em-sp",
+    "description": {
+      "pt": {
+        "title": "Universitários do Amazonas constroem aeronave para competição nacional em SP",
+        "place": "Programa de TV",
+        "prize": "Entrevista"
+      },
+      "en": {
+        "title": "University students from Amazonas build aircraft for national competition in SP",
+        "place": "TV Show",
+        "prize": "Interview"
+      }
+    }
+  },
+  {
+    "certificate": "https://g1.globo.com/am/amazonas/bom-dia-amazonia/videos/t/edicoes/v/estudantes-da-uea-vao-representar-estado-em-competicao-nacional-de-aerodesign/6207412/",
+    "description": {
+      "pt": {
+        "title": "Estudantes da UEA vão representar estado em competição nacional de aerodesign",
+        "place": "Programa de TV",
+        "prize": "Entrevista"
+      },
+      "en": {
+        "title": "UEA students will represent state in national aerodesign competition",
+        "place": "TV Show",
+        "prize": "Interview"
+      }
+    }
+  },
+  {
+    "certificate": "https://noticias1.uea.edu.br/noticia.php?notId=53387",
+    "description": {
+      "pt": {
+        "title": "Alunos da UEA ficam em terceiro lugar no SAE Brasil 2017",
+        "place": "Artigo em Blog",
+        "prize": "Entrevista"
+      },
+      "en": {
+        "title": "UEA students take third place at SAE Brazil 2017",
+        "place": "Blog article",
+        "prize": "Interview"
+      }
+    }
+  },
+  {
+    "certificate": "https://drive.google.com/file/d/1v7QTEKo2Ux-vEkXuhQzMCIP-5JI9RXbk/view",
+    "description": {
+      "pt": {
+        "title": "Olimpiada Brasileira de Robótica",
+        "place": "OBR",
+        "prize": "Competição"
+      },
+      "en": {
+        "title": "Brazilian Robotics Olympiad",
+        "place": "OBR",
+        "prize": "Competition"
+      }
+    }
+  }
+]
