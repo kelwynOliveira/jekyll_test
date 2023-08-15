@@ -1,0 +1,826 @@
+[
+  {
+    "title": {
+      "pt": "Certificação e cursos",
+      "en": "Courses and certifications"
+    },
+    "courses": [
+      {
+        "school": "Origamid",
+        "certificate": "https://drive.google.com/file/d/1JHBtJiXVvI38YR4r4t-32_vVImI8nGxY/view",
+        "start": "July 26, 2023",
+        "end": "August 10, 2023",
+        "hours": "74h",
+        "pt": {
+          "course_title": "JavaScript Completo ES6",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "JavaScript ES6 Course",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1JXHpLMcoWop4pG6xJj4RBy5YQEIYmwWG/view",
+        "start": "July 24, 2023",
+        "end": "July 24, 2023",
+        "hours": "6h30",
+        "pt": {
+          "course_title": "HTML5 para quem não sabe nada de HTML5",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "HTML5 for those who know nothing about HTML5",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1nkTZ9lMWOo_KAMVHp46EC1n2rii743g8/view",
+        "start": "July 24, 2023",
+        "end": "July 24, 2023",
+        "hours": "4h30",
+        "pt": {
+          "course_title": "Introdução à linguagem JavaScript",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to the JavaScript language",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Origamid",
+        "certificate": "https://drive.google.com/file/d/1WtOyzPDjVH6kHMVlmLnnSh9-M_RxcQFx/view",
+        "start": "July 13, 2023",
+        "end": "July 21, 2023",
+        "hours": "10h",
+        "pt": {
+          "course_title": "CSS Grid Layout",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "CSS Grid Layout",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1r5sEkMMfggxIligzy_wsca4TPIu10rAe/view",
+        "start": "July 18, 2023",
+        "end": "July 18, 2023",
+        "hours": "2h",
+        "pt": {
+          "course_title": "Minicurso Qlikview do Zero - Introdução ao Qlik!",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Qlikview Minicourse from Scratch - Introduction to Qlik!",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1eoXvEnVMfBk3EAwbSnsvqdtEmdi6T8lo/view",
+        "start": "July 18, 2023",
+        "end": "July 18, 2023",
+        "hours": "2h",
+        "pt": {
+          "course_title": "Introdução à linguagem Python",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to the Python language",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1J8viv2cdZTr25Lnu5f_SEbkTPDnaW2FY/view",
+        "start": "July 18, 2023",
+        "end": "July 18, 2023",
+        "hours": "2h",
+        "pt": {
+          "course_title": "Introdução à programação de computadores",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to computer programming",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1KAftwjNI1u4TDHJLuVHLEqT2HR2Zl8HO/view",
+        "start": "July 16, 2023",
+        "end": "July 16, 2023",
+        "hours": "2h",
+        "pt": {
+          "course_title": "Introdução ao Sistema Operacional Linux",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to the Linux Operating System",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1NV-u8R9yRgDkWjgHQ3BF5gfnRuZVJUm-/view",
+        "start": "July 16, 2023",
+        "end": "July 16, 2023",
+        "hours": "2h",
+        "pt": {
+          "course_title": "Modelagem comparativa de proteínas",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Comparative protein modeling",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1q8EgBELjNyn2ZtDt2mk6JQ2NS42UzF6_/view",
+        "start": "July 16, 2023",
+        "end": "July 16, 2023",
+        "hours": "2h",
+        "pt": {
+          "course_title": "BLAST: Ferramenta de Alinhamentos Locais de Sequências",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "BLAST: Local Sequence Alignments Tool",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1BtdCZOh347Pb0Ij7YwB6dlrVK3HzU0qa/view",
+        "start": "July 16, 2023",
+        "end": "July 16, 2023",
+        "hours": "1h",
+        "pt": {
+          "course_title": "Curso de Algoritmos e Lógica de Programação",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Algorithms and Programming Logic Course",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1PO6_KRdN1AsOYX4NiFa9-216l0l32tjl/view",
+        "start": "July 15, 2023",
+        "end": "July 15, 2023",
+        "hours": "2h",
+        "pt": {
+          "course_title": "Introdução à Criação de Sites Dinâmicos com PHP",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to Creating Dynamic Websites with PHP",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1yrZXgyI3FAHc66HD0rM1UacXCjUYDijW/view",
+        "start": "July 15, 2023",
+        "end": "July 15, 2023",
+        "hours": "2h",
+        "pt": {
+          "course_title": "Introdução à linguagem CSS",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to the CSS language",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1QV7mVWMic6gVD5plWBXUMODknTluOlnu/view",
+        "start": "July 15, 2023",
+        "end": "July 15, 2023",
+        "hours": "1h",
+        "pt": {
+          "course_title": "JavaScript e jQuery para Iniciantes",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "JavaScript and jQuery for Beginners",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1jR0TaIfZjHbbiW1dV7rLOWdgSQFYEylU/view",
+        "start": "July 15, 2023",
+        "end": "July 15, 2023",
+        "hours": "0h30",
+        "pt": {
+          "course_title": "Introdução à Linguagem HTML",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to HTML Language",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1FjE_qB_1ZFNw7Q5HWNaZk3ELWqGCIhwl/view",
+        "start": "July 14, 2023",
+        "end": "July 14, 2023",
+        "hours": "2h",
+        "pt": {
+          "course_title": "Data Science: Visualização de Dados com Python",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Data Science: Data Visualization with Python",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/13rKXO0meDkMyd5qduEI72TFLxrrHNpGU/view",
+        "start": "July 14, 2023",
+        "end": "July 14, 2023",
+        "hours": "1h",
+        "pt": {
+          "course_title": "Terminal Linux",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Linux Terminal",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1ebRuW2mCJBmxN9YGjaN4dE2vjZ4Z8mk6/view",
+        "start": "July 14, 2023",
+        "end": "July 14, 2023",
+        "hours": "1h",
+        "pt": {
+          "course_title": "Introdução ao PHP orientado a objetos",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to object-oriented PHP",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1YUe4ADmxLYF5F8exyuIIJT2hWov2q0ch/view",
+        "start": "July 14, 2023",
+        "end": "July 14, 2023",
+        "hours": "30min",
+        "pt": {
+          "course_title": "Introdução a banco de dados com MySQL & PHPMyAdmin",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to database with MySQL & PHPMyAdmin",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Alura",
+        "certificate": "https://drive.google.com/file/d/1rgvCQ9fEeQ2nFhw6UTWae6TqlqTnG3m8/view",
+        "start": "July 13, 2023",
+        "end": "July 13, 2023",
+        "hours": "75h",
+        "pt": {
+          "course_title": "A partir do zero: iniciante em programação",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Starting in programming",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Alura",
+        "certificate": "https://drive.google.com/file/d/1br5twynUCsGKKEu_RSbAlajcPbsp2lsC/view",
+        "start": "July 07, 2023",
+        "end": "July 07, 2023",
+        "hours": "51h",
+        "pt": {
+          "course_title": "A partir do zero: HTML e CSS para projetos web",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "From Scratch: HTML and CSS for web projects",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Origamid",
+        "certificate": "https://drive.google.com/file/d/12OmGDoJEFGxdzmWXizsLgPpIXm8LRL4S/view",
+        "start": "July 04, 2023",
+        "end": "July 04, 2023",
+        "hours": "6h",
+        "pt": {
+          "course_title": "CSS Flexbox",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "CSS Flexbox",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Origamid",
+        "certificate": "https://drive.google.com/file/d/1KmnK-zubdWSsoQQGf8b2FAV9bZqVgoUO/view",
+        "start": "June 25, 2023",
+        "end": "July 02, 2023",
+        "hours": "46h",
+        "pt": {
+          "course_title": "HTML e CSS para Iniciantes",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "HTML and CSS for Beginners",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Origamid",
+        "certificate": "https://drive.google.com/file/d/1Oq2ZkN2O7HcQrAEytRHmnHoMjVfJ05W2/view",
+        "start": "May 29, 2023",
+        "end": "June 11, 2023",
+        "hours": "34h",
+        "pt": {
+          "course_title": "UI Design para Iniciantes",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "UI Design for Beginners",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Alura",
+        "certificate": "https://drive.google.com/file/d/1fGLjBOjr8631a8T_Jt1Jwd5oPczisIns/view",
+        "start": "March 18, 2023",
+        "end": "March 18, 2023",
+        "hours": "8h",
+        "pt": {
+          "course_title": "Java OO: entendendo a orientação a objetos",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Java OO: object orientation",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Alura",
+        "certificate": "https://drive.google.com/file/d/1-__gom-OiXtTJIvqnEGkSTTc189WcIus/view",
+        "start": "March 17, 2023",
+        "end": "March 17, 2023",
+        "hours": "8h",
+        "pt": {
+          "course_title": "Java JRE e JDK: compile e execute o seu programa",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Java JRE and JDK: compile and run your application",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Alura",
+        "certificate": "https://drive.google.com/file/d/1fupAYJ52dgk0PGJiREsIKlbvPQxl4jV5/view",
+        "start": "March 13, 2023",
+        "end": "March 13, 2023",
+        "hours": "8h",
+        "pt": {
+          "course_title": "Git e Github: estratégias de ramificação, Conflitos e Pull Requests",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Git and GitHub: branching strategies, conflicts, and pull requests",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Alura",
+        "certificate": "https://drive.google.com/file/d/1PI1T_TGa0bqGZwHf06nq3mxXnZ-n7trF/view",
+        "start": "March 12, 2023",
+        "end": "March 12, 2023",
+        "hours": "6h",
+        "pt": {
+          "course_title": "Git e Github: controle e compartilhe seu código",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Git and GitHub: control and share your code",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Alura",
+        "certificate": "https://drive.google.com/file/d/1l5b2bVrxfHatMOJa9txK2hXRojnyFNlY/view",
+        "start": "March 08, 2023",
+        "end": "March 08, 2023",
+        "hours": "10h",
+        "pt": {
+          "course_title": "JavaScript e HTML: pratique lógica com desenhos, animações e um jogo",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "JavaScript and HTML: practice logic with drawings, animations and a game",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Origamid",
+        "certificate": "https://drive.google.com/file/d/1E5NSSlmeiPeursZZeBm40x_axAUPz3LF/view",
+        "start": "November 23, 2020",
+        "end": "December 22, 2020",
+        "hours": "44h",
+        "pt": {
+          "course_title": "Web Design Completo",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Web Design",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1wjesoZAZbpofb8PX8SlAh7NIwCavUSC4/view",
+        "start": "December 29, 2018",
+        "end": "December 29, 2018",
+        "hours": "17h",
+        "pt": {
+          "course_title": "Python para Data Science e Machine Learning",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Python for Data Science and Machine Learning",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1F1awrPwcCWqFm5utWXWoPDbwyKqY2CIo/view",
+        "start": "December 21, 2018",
+        "end": "December 21, 2018",
+        "hours": "9h",
+        "pt": {
+          "course_title": "Realidade Aumentada com Unity e Vuforia",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Augmented Reality with Unity and Vuforia",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Udemy",
+        "certificate": "https://drive.google.com/file/d/1-Vd20kMxMa8QvQhjAZzN6nwZUI6igl3l/view",
+        "start": "December 14, 2018",
+        "end": "December 14, 2018",
+        "hours": "18h",
+        "pt": {
+          "course_title": "Inteligência Artificial e Machine Learning",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Artificial Intelligence and Machine Learning",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Cambridg Assessment English",
+        "certificate": "https://drive.google.com/file/d/1ya-fdm7DycgCfubgDMIiI4bk-BDnTIKb/view",
+        "start": "February 1, 2020",
+        "end": "February 1, 2020",
+        "hours": "",
+        "pt": {
+          "course_title": "Linguaskill",
+          "type": "Certificado",
+          "category": ["Inovação", "gestão"]
+        },
+        "en": {
+          "course_title": "Linguaskill",
+          "type": "Certificate",
+          "category": []
+        }
+      },
+      {
+        "school": "Institute Performance France",
+        "certificate": "https://drive.google.com/file/d/1lM3wRPW09deXRgNtoSkBfWI0Tk1vO_ls/view",
+        "start": "January 22, 2020",
+        "end": "January 22, 2020",
+        "hours": "",
+        "pt": {
+          "course_title": "Six Sigma - Yellow Belt",
+          "type": "Certificado",
+          "category": ["Inovação", "gestão"]
+        },
+        "en": {
+          "course_title": "Six Sigma - Yellow Belt",
+          "type": "Certificate",
+          "category": ["Innovation", "management"]
+        }
+      },
+      {
+        "school": "DELF",
+        "certificate": "https://drive.google.com/file/d/14uWySYdFvj6-kSSuxkbtcKhsE4DleTWR/view",
+        "start": "April 01, 2019",
+        "end": "April 01, 2019",
+        "hours": "",
+        "pt": {
+          "course_title": "Diplôme d'Études en Langue Française - B1",
+          "type": "Certificado",
+          "category": []
+        },
+        "en": {
+          "course_title": "Diplôme d'Études en Langue Française - B1",
+          "type": "Certificate",
+          "category": []
+        }
+      },
+      {
+        "school": "SEBRAE",
+        "certificate": "https://drive.google.com/file/d/1gqxJ_nZYs3kpgQbwu8rBH_-gB3Va-yZJ/view",
+        "start": "November 14, 2018",
+        "end": "December 29, 2018",
+        "hours": "3h",
+        "pt": {
+          "course_title": "Empreendedorismo como Opção de Carreira",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Entrepreneurship as a Career Option",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "SEBRAE",
+        "certificate": "https://drive.google.com/file/d/1QQF00zxH9R7jnZ7oK2KcYaDj4zbJ4r49/view",
+        "start": "November 20, 2018",
+        "end": "December 05, 2018",
+        "hours": "4h",
+        "pt": {
+          "course_title": "Empreendedorismo - Como reconhecer características empreendedoras de sucesso",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Entrepreneurship - How to recognize successful entrepreneurial characteristics",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "SEBRAE",
+        "certificate": "https://drive.google.com/file/d/1uQnskWqyEhbpf-zqGDo0Dyiu4WfUnC3q/view",
+        "start": "November 08, 2018",
+        "end": "November 23, 2018",
+        "hours": "1h",
+        "pt": {
+          "course_title": "Identidade Empreendedora",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Entrepreneurial Identity",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "SEBRAE",
+        "certificate": "https://drive.google.com/file/d/1UNHtMTX5-JR6UHNmQ0W3gBhj7pA26T7q/view",
+        "start": "November 07, 2018",
+        "end": "November 22, 2018",
+        "hours": "1h",
+        "pt": {
+          "course_title": "Como ter ideias criativas e inovar na prática?",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "How to come up with creative ideas and innovate in practice?",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Ocean",
+        "certificate": "https://drive.google.com/file/d/1l6M4f9mDMqBH5Irdsdyo0AOvVqx90Smk/view",
+        "start": "April 11, 2018",
+        "end": "April 12, 2018",
+        "hours": "6h",
+        "pt": {
+          "course_title": "Laboratório de Internet das Coisas (IoT)",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Internet of Things (IoT) Lab",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Ocean",
+        "certificate": "https://drive.google.com/file/d/1Dv1pav64LiPOfisqUMfqOa-ZRK8XWBPz/view",
+        "start": "April 10, 2018",
+        "end": "April 10, 2018",
+        "hours": "3h",
+        "pt": {
+          "course_title": "Introdução à Internet das Coisas (IoT)",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to the Internet of Things (IoT)",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "ITEGAM",
+        "certificate": "https://drive.google.com/file/d/1TCb8DrVg3NFGhHz1dB9lu5NtbvVyeQBB/view",
+        "start": "Octuber 5, 2016",
+        "end": "Octuber 30, 2016",
+        "hours": "40h",
+        "pt": {
+          "course_title": "Estatística Aplicada",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Applied Statistics",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "AmazonCAD",
+        "certificate": "https://drive.google.com/file/d/1NoeQ_h63amMm2WhyPlYKRRL_XJI_IjiP/view",
+        "start": "",
+        "end": "June 10, 2016",
+        "hours": "10h",
+        "pt": {
+          "course_title": "Autodesk Fusion360",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Autodesk Fusion360",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Intranorth",
+        "certificate": "https://drive.google.com/file/d/1Y4Ei619CP3usYjkfapVCIqf1zGB8saqa/view",
+        "start": "",
+        "end": "May 20, 2016",
+        "hours": "20h",
+        "pt": {
+          "course_title": "Autodesk Inventor",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Autodesk Inventor",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "SENAC",
+        "certificate": "https://drive.google.com/file/d/1u5uSP0ug51I619WaX8ozc0SBunMs1zvE/view",
+        "start": "July 27, 2015",
+        "end": "August 12, 2015",
+        "hours": "50h",
+        "pt": {
+          "course_title": "Montagem, Configuração e Manutenção de Computadores",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Computer Assembly, Configuration and Maintenance",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Ocean",
+        "certificate": "https://drive.google.com/file/d/1soU96VAwMDNsbWmZpiZ6F-sceoPHk7XG/view",
+        "start": "July 13, 2015",
+        "end": "July 13, 2015",
+        "hours": "4h",
+        "pt": {
+          "course_title": "Pintura Digital para Jogos",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Digital Painting for Games",
+          "type": "Course",
+          "category": []
+        }
+      },
+      {
+        "school": "Ocean",
+        "certificate": "https://drive.google.com/file/d/127-cM6RFfd5MUuqmAQ3exP90rt2AwyiN/view",
+        "start": "July 2, 2015",
+        "end": "July 2, 2015",
+        "hours": "4h",
+        "pt": {
+          "course_title": "Introdução aos Óculos VR",
+          "type": "Curso",
+          "category": []
+        },
+        "en": {
+          "course_title": "Introduction to Virtual Reality",
+          "type": "Course",
+          "category": []
+        }
+      }
+    ]
+  }
+]

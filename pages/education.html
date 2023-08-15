@@ -1,0 +1,78 @@
+---
+title: Education
+permalink: education
+lang: en
+---
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <!-- corpo -->
+  <div class="body-container">
+    <main class="education-main">
+      <h1 class="title">{{ page.title }}</h1>
+      <div class="experiences-container">
+
+        <!-- Academic -->
+        <section class="section-item">
+          {% for academic in site.data.academics %}
+          <h2 class="sub-title">{{ academic.title[page.lang] }}</h2>
+
+          <ul class="graduations-list">
+
+            {% for school in academic.schools %}
+            <li class="graduation-item">
+              <p class="graduation-title">{{ school[page.lang].graduation}}</p>
+              <a class="graduation-course" href="{{ school.certificate }}" target="_blank">{{ school[page.lang].course_title}}</a>
+              <p class="graduation-school">{{ school.school }}</p>
+            </li>
+            {% endfor %}
+
+          </ul>
+
+          {% endfor %}
+        </section>
+
+        <!-- Licenças e certificações -->
+        <section class="section-item certifications-container">
+          {% for certifications in site.data.certifications %}
+
+          <h2 class="sub-title">{{ certifications.title[page.lang] }}</h2>
+
+          <ul class="certifications-list">
+
+            {% assign certification_by_date = certifications.courses | sort: "end | date" %}
+            {% for certification in certification_by_date %}
+            <li>
+              <div class="certification-title-div">
+                <a class="certification-title" href="{{ certification.certificate }}" target="_blank">{{ certification[page.lang].course_title }}</a>
+                <span class="certification-date">{{ certification.end | date: "%b %Y"}}</span>
+              </div>
+              <p class="certification-school">{{ certification.school }}</p>
+              <!-- <p class="font-2 font-xs color-smooth">{{ certification[page.lang].type }}</p> -->
+              <ul class="certification-category-list">
+
+                {% for category in certification[page.lang].category %}
+                <li class="certification-category">{{ category }},&ensp;</li>
+                {% endfor %}
+
+              </ul>
+            </li>
+            {% endfor %}
+
+          </ul>
+
+
+          {% endfor %}
+        </section>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  {% include footer.html %}

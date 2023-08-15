@@ -1,0 +1,46 @@
+[
+  {
+    "title": {
+      "pt": "Formação acadêmica",
+      "en": "Academic background"
+    },
+    "schools": [
+      {
+        "school": "UEA",
+        "certificate": "https://drive.google.com/file/d/1gi5SnSV93aKDqwQFepjrIHWpMbGSpN0X/view",
+        "pt": {
+          "graduation": "Bacharel",
+          "course_title": "Engeharia de Controle e Automação"
+        },
+        "en": {
+          "graduation": "Bachelor",
+          "course_title": "Control and Automation Engineering"
+        }
+      },
+      {
+        "school": "EIGSI - FR",
+        "certificate": "https://drive.google.com/file/d/1j4nceBRyP26URYkYnNfuluMeM2tcmn0s/view",
+        "pt": {
+          "graduation": "Intercâmbio",
+          "course_title": "Ms. Mecatrônica"
+        },
+        "en": {
+          "graduation": "Exchange",
+          "course_title": "Ms. Mechatronics"
+        }
+      },
+      {
+        "school": "IFAM",
+        "certificate": "https://drive.google.com/file/d/1VZbJt6vDANmcvi8e29KPSeKd3cBhba_p/view",
+        "pt": {
+          "graduation": "Técnico",
+          "course_title": "Mecatrônica"
+        },
+        "en": {
+          "graduation": "Technician",
+          "course_title": "Mechatronics"
+        }
+      }
+    ]
+  }
+]
