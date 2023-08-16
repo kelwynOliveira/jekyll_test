@@ -3,8 +3,7 @@ layout: default
 ---
 
 <div class="body-container">
-  <p><a href="/projects">Projects</a></p><br>
-  <p><a href="/experiences">Experiences</a></p><br>
-  <p><a href="/education">Education</a></p><br>
-  <p><a href="/prizes">Prizes</a></p><br>
+  {% for portfolio in site.portfolio %}
+  <p><a href="{{ portfolio.url }}">{{ portfolio.title }}</a></p><br>
+  {% endfor %}
 </div>
