@@ -33,10 +33,6 @@ github_username: jekyll
 theme: minima
 # theme: portfolio
 
-collections:
-  portfolio:
-    output: true
-
 plugins:
   - jekyll-feed
 # Exclude from processing.

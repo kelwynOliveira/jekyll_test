@@ -1,0 +1,41 @@
+---
+title: Projects
+permalink: projects
+layout: page
+---
+
+<!-- Projects - portfolio -->
+{% include_relative includes/portfolio_projects.html %}
+
+<!-- School projects -->
+{% for researchProject in site.data.researchProjects %}
+<section class="section-item">
+  <div class="projects-container">
+    <h2 class="sub-title">{{ researchProject.title[layout.lang] }}</h2>
+
+    {% for project in researchProject.projects %}
+    <div class="project-container">
+      <div class="project-img-container">
+        <img src="{{ project.logo }}" alt="{{ project.place }}">
+      </div>
+
+      <div>
+        <h5 class="project-title">{{ project.project.description[layout.lang].title }}</h5>
+        <ul>
+          <li>
+            <div>
+              <p class="project-description">{{ project.project.description[layout.lang].description }}</p>
+              <p class="project-date">{{ project.project.start | date: "%b %Y"}} - {{ project.project.end | date: "%b %Y" }}</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
+{% endfor %}
+
+
+<script src="{{ '/assets/js/modules/courses.js' | relative_url }}"></script>

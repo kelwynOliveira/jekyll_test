@@ -2,8 +2,29 @@
 layout: default
 ---
 
+
 <div class="body-container">
-  {% for portfolio in site.portfolio %}
-  <p><a href="{{ portfolio.url }}">{{ portfolio.title }}</a></p><br>
-  {% endfor %}
+
+  <!-- About -->
+  {% include_relative pages/includes/home_itens/home_about.html %}
+
+  <!-- Portfolio -->
+  {% include_relative pages/includes/home_itens/home_projects.html %}
+
+  <!-- Tecnologies -->
+  {% include_relative pages/includes/home_itens/home_tecnologies.html %}
+
+  <!-- Experiences -->
+  {% include_relative pages/includes/home_itens/home_experiences.html %}
+
+  <!-- Education -->
+  {% include_relative pages/includes/home_itens/home_education.html %}
+
+  <!-- Languages -->
+  {% include_relative pages/includes/home_itens/home_languages.html %}
+
+  <!-- Prizes -->
+  {% include_relative pages/includes/home_itens/home_prizes.html %}
+
+
 </div>

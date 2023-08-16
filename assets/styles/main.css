@@ -59,6 +59,11 @@ h1.title {
   font-size: 4rem;
   color: var(--primary-color);
 }
+.main-containe {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 
 .section-item {
   margin-top: 96px;
@@ -189,12 +194,6 @@ h1.title {
 }
 
 /* Experiences */
-.experiences-container,
-.certifications-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
 .experience-list {
   display: flex;
   flex-direction: column;

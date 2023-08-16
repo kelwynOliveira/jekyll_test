@@ -1,0 +1,49 @@
+---
+title: Experiences
+permalink: experiences
+layout: page
+---
+
+{% for experience in site.data.experiences %}
+<section class="section-item experiences-container">
+
+  <h2 class="sub-title">{{ experience.title[layout.lang]}}</h2>
+
+  {% for company in experience.experiences %}
+  <div class="experience-container">
+    <div class="experience-img-container">
+      <img src="{{company.logo}}" alt="{{company.enterprise}}">
+    </div>
+
+    <div>
+      <h5 class="experience-title">{{company.enterprise}}</h5>
+      <ul class="experience-list">
+
+        {% for job in company.jobs %}
+        <li>
+          <span></span>
+          <div class="">
+            <p class="experience-role-title">{{ job[layout.lang].title }}</p>
+            <p class="experience-place">{{ job.place }}</p>
+            <p class="experience-date">{{ job.start-date | date: "%b %Y"}} - {{ job.end-date | date: "%b %Y"}}</p>
+
+            {% unless job[layout.lang].description == "" %}
+            <ul class="experience-activities-list">
+
+              {% for activities in job[layout.lang].description %}
+              <li>{{ activities }}</li>
+              {% endfor %}
+
+            </ul>
+            {% endunless %}
+          </div>
+        </li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
+
+</section>
+{% endfor %}
