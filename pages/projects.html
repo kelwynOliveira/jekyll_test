@@ -1,61 +1,53 @@
 ---
 title: Projects
 permalink: projects
-lang: en
+layout: default
 ---
 
-{% include head.html %}
+<div class="body-container">
 
-<body>
+  <main class="projects-main">
+    <h1 class="title">{{ page.title }}</h1>
 
-  {% include header.html %}
+    <!-- Projects - portfolio -->
+    <section class="section-item">
+      <ul class="projects-list" data-list="projects">
+      </ul>
+    </section>
 
-  <div class="body-container">
+    <!-- School projects -->
+    {% for researchProject in site.data.researchProjects %}
 
-    <main class="projects-main">
-      <h1 class="title">{{ page.title }}</h1>
+    <section class="section-item">
+      <div class="projects-container">
+        <h2 class="sub-title">{{ researchProject.title[layout.lang] }}</h2>
 
-      <!-- Projects - portfolio -->
-      <section class="section-item">
-        <ul class="projects-list" data-list="projects">
-        </ul>
-      </section>
-
-      <!-- School projects -->
-      {% for researchProject in site.data.researchProjects %}
-
-      <section class="section-item">
-        <div class="projects-container">
-          <h2 class="sub-title">{{ researchProject.title[page.lang] }}</h2>
-
-          {% for project in researchProject.projects %}
-          <div class="project-container">
-            <div class="project-img-container">
-              <img src="{{ project.logo }}" alt="{{ project.place }}">
-            </div>
-
-            <div>
-              <h5 class="project-title">{{ project.project.description[page.lang].title }}</h5>
-              <ul>
-                <li>
-                  <div>
-                    <p class="project-description">{{ project.project.description[page.lang].description }}</p>
-                    <p class="project-date">{{ project.project.start | date: "%b %Y"}} - {{ project.project.end | date: "%b %Y" }}</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
+        {% for project in researchProject.projects %}
+        <div class="project-container">
+          <div class="project-img-container">
+            <img src="{{ project.logo }}" alt="{{ project.place }}">
           </div>
-          {% endfor %}
 
+          <div>
+            <h5 class="project-title">{{ project.project.description[layout.lang].title }}</h5>
+            <ul>
+              <li>
+                <div>
+                  <p class="project-description">{{ project.project.description[layout.lang].description }}</p>
+                  <p class="project-date">{{ project.project.start | date: "%b %Y"}} - {{ project.project.end | date: "%b %Y" }}</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-      </section>
-      {% endfor %}
+        {% endfor %}
 
-    </main>
+      </div>
+    </section>
+    {% endfor %}
 
-  </div>
+  </main>
 
-  <script src="{{ '/assets/js/modules/courses.js' | relative_url }}"></script>
+</div>
 
-  {% include footer.html %}
+<script src="{{ '/assets/js/modules/courses.js' | relative_url }}"></script>
