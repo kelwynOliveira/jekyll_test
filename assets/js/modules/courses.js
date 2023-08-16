@@ -1,4 +1,4 @@
-export default function initFetchCourses() {
+function initFetchCourses() {
   async function fetchCourses(url) {
     try {
       const coursesResponse = await fetch(url);
@@ -25,3 +25,4 @@ export default function initFetchCourses() {
     "https://kelwynoliveira.github.io/Assets/data/coursesProjectsapi.json"
   );
 }
+initFetchCourses();
