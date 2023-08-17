@@ -1,5 +1,5 @@
-function initFetchCourses() {
-  async function fetchCourses(url) {
+function initFetchProjects() {
+  async function fetchProjects(url) {
     try {
       const coursesResponse = await fetch(url);
       const coursesJSON = await coursesResponse.json();
@@ -21,8 +21,8 @@ function initFetchCourses() {
     }
   }
 
-  fetchCourses(
-    "https://kelwynoliveira.github.io/Assets/data/coursesProjectsapi.json"
+  fetchProjects(
+    "https://kelwynoliveira.github.io/Assets/data/projectsapi.json"
   );
 }
-initFetchCourses();
+initFetchProjects();

@@ -1,0 +1,36 @@
+[
+  {
+    "pt": {
+      "language": "Português",
+      "proeficience": "Língua mãe"
+    },
+    "en": {
+      "language": "Portuguese",
+      "proeficience": "Mother language"
+    }
+  },
+  {
+    "certificate": "https://drive.google.com/file/d/1ya-fdm7DycgCfubgDMIiI4bk-BDnTIKb/view",
+    "certificate_from": "LinguaSkill - Cambridg Assessment",
+    "pt": {
+      "language": "Inglês",
+      "proeficience": "B2"
+    },
+    "en": {
+      "language": "English",
+      "proeficience": "B2"
+    }
+  },
+  {
+    "certificate": "https://drive.google.com/file/d/14uWySYdFvj6-kSSuxkbtcKhsE4DleTWR/view",
+    "certificate_from": "Diplome d'Études en Langue Française - DELF",
+    "pt": {
+      "language": "Francês",
+      "proeficience": "B1"
+    },
+    "en": {
+      "language": "French",
+      "proeficience": "B1"
+    }
+  }
+]

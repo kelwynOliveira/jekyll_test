@@ -51,6 +51,8 @@ img {
 .body-container {
   margin: 0 auto;
   max-width: 1200px;
+}
+.content {
   padding: 0 20px;
 }
 
@@ -58,15 +60,17 @@ h1.title {
   font-family: Poppins;
   font-size: 4rem;
   color: var(--primary-color);
+  margin-bottom: 96px;
 }
-.main-containe {
+.main-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 46px;
 }
-
 .section-item {
-  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 .sub-title {
   font-family: "Roboto";
@@ -171,12 +175,16 @@ h1.title {
   letter-spacing: 0.36px;
   line-height: 1.5;
 }
-.prize-certificate:hover {
+.prize-certificate:hover,
+.graduation-course:hover,
+.language:hover,
+.btn-full:hover {
   filter: var(--filter);
 }
 .prize-certificate::after,
 .graduation-course::after,
-.certification-title::after {
+.certification-title::after,
+.external-link::after {
   content: "";
   display: inline-block;
   margin-left: 5px;
@@ -216,13 +224,16 @@ h1.title {
 }
 
 /* Education */
+.academics-container {
+  display: flex;
+  justify-content: center;
+}
 .graduations-list {
   display: flex;
   overflow: auto;
   gap: 20px;
 }
 .graduation-item {
-  margin: 32px 0;
   border: 1px solid var(--primary-color);
   border-radius: 32px;
   padding: 32px;
@@ -248,9 +259,6 @@ h1.title {
   text-transform: uppercase;
   /* color: var(--primary-color); */
 }
-.graduation-course:hover {
-  filter: var(--filter);
-}
 .graduation-school {
   font-family: "Roboto";
   font-size: 0.875rem;
@@ -260,25 +268,28 @@ h1.title {
   text-transform: uppercase;
 }
 
-.certifications-list {
+.certifications-list,
+.certifications-list-home {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  max-height: 400px;
-  overflow: auto;
+  gap: 20px;
   padding-right: 12px;
 }
+.certifications-list {
+  max-height: 400px;
+  overflow: auto;
+}
 
-.certifications-list::-webkit-scrollbar {
+.certifications-list.scroll::-webkit-scrollbar {
   width: 5px;
 }
-.certifications-list::-webkit-scrollbar-track {
+.certifications-list.scroll::-webkit-scrollbar-track {
   box-shadow: inset 0px 0px 5px grey;
 }
-.certifications-list::-webkit-scrollbar-thumb {
+.certifications-list.scroll::-webkit-scrollbar-thumb {
   background: var(--primary-color);
 }
-.certifications-list::-webkit-scrollbar-thumb:hover {
+.certifications-list.scroll::-webkit-scrollbar-thumb:hover {
   background: var(--text1);
 }
 
@@ -367,6 +378,113 @@ h1.title {
   height: initial;
 }
 
+/* Home */
+.section-home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 46px;
+}
+.section-home-div {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 2rem;
+  background-color: var(--bg);
+  box-shadow: 0 -2rem 0 0 var(--bg), 0 0.5rem 0 0 var(--bg);
+  z-index: 99;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: Poppins;
+  padding: 0 20px;
+}
+.section-home-title {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  margin: 2rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+.section-home-title img {
+  max-width: 25px;
+}
+.btn-more {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btn-full {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--primary-color-5);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  font-family: Poppins;
+}
+
+/* About me */
+.whomi {
+  font-family: Poppins;
+  line-height: 1.125;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.text-enfasis {
+  color: var(--primary-color);
+}
+.about-me {
+  margin-top: 12px;
+  font-family: "Roboto";
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-6);
+}
+
+.languages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.language-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.language {
+  font-family: "Roboto";
+  line-height: 1.5;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.language-level {
+  font-family: "Roboto";
+  line-height: 1.5;
+  color: var(--color-6);
+}
+.language-certificate {
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-6);
+}
+
 @media (max-width: 700px) {
   h1.title {
     font-size: 3rem;
@@ -376,5 +494,8 @@ h1.title {
   }
   .contact-list .link img {
     display: none;
+  }
+  .whomi {
+    font-size: 2rem;
   }
 }

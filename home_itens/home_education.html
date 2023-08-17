@@ -1,0 +1,43 @@
+<section class="section-home-container">
+  <div class="section-home-div">
+    <a class="section-home-title" href="#education">
+      <img src="https://kelwynoliveira.github.io/Assets/svg/portfolio/school.svg" alt="{{ page.education }}">
+      {{ page.education }}
+    </a>
+  </div>
+
+  <div class="content section-home-container">
+    {% include academic.html %}
+
+    <!-- Certifications -->
+    <section class="section-item">
+      {% for certifications in site.data.certifications %}
+      <h2 class="sub-title">{{ certifications.title[page.lang] }}</h2>
+      <ul class="certifications-list-home">
+        {% assign certification = certifications.courses | sort: " end | date" %} {% for index in (0..4) %} <li>
+          <div class="certification-title-div">
+            <a class="certification-title" href="{{ certification[index].certificate }}" target="_blank">{{ certification[index].[page.lang].course_title }}</a>
+            <span class="certification-date">{{ certification[index].end | date: "%b %Y"}}</span>
+          </div>
+          <p class="certification-school">{{ certification[index].school }}</p>
+          <!-- <p class="font-2 font-xs color-smooth">{{ certification[page.lang].type }}</p> -->
+          <ul class="certification-category-list">
+
+            {% for category in certification[index].[page.lang].category %}
+            <li class="certification-category">{{ category }},&ensp;</li>
+            {% endfor %}
+
+          </ul>
+        </li>
+        {% endfor %}
+
+      </ul>
+      {% endfor %}
+    </section>
+  </div>
+
+  <!-- Btn see more -->
+  <div class="btn-more">
+    <a class="btn-full" href="{{ '/education' | absolute_url }}">{{ page.more }}</a>
+  </div>
+</section>

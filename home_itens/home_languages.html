@@ -1,0 +1,31 @@
+<!-- Languages spoken -->
+<section class="section-home-container">
+
+  <div class="section-home-div">
+    <a class="section-home-title" href="#languages">
+      <img src="https://kelwynoliveira.github.io/Assets/svg/portfolio/translate.svg" alt="{{ page.languages }}">
+      {{ page.languages }}
+    </a>
+  </div>
+
+  <div class="content">
+    <ul class="languages-list">
+
+      {% for language in site.data.languages %}
+      <li>
+        <div class="language-div">
+          {% if language.certificate %}
+          <a class="language external-link" href="{{ language.certificate}}" target="_blank">{{ language[page.lang].language }}</a>
+          {% else %}
+          <p class="language">{{ language[page.lang].language }}</p>
+          {% endif %}
+
+          <span class="language-level">{{ language[page.lang].proeficience }}</span>
+        </div>
+        <p class="language-certificate">{{ language.certificate_from }}</p>
+      </li>
+      {%endfor%}
+
+    </ul>
+  </div>
+</section>
