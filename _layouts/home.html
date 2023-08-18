@@ -4,29 +4,35 @@ layout: default
 
 
 <div class="body-container">
+  {% include card.html %}
 
-  <!-- About -->
-  {% include_relative home_itens/home_about.html %}
+  <main class="main">
+    <!-- About -->
+    {% include_relative home_itens/home_about.html %}
 
-  <!-- Portfolio -->
-  {% include_relative home_itens/home_projects.html %}
+    <!-- Portfolio -->
+    {% include_relative home_itens/home_projects.html %}
 
-  <!-- Tecnologies -->
+    <!-- Tecnologies -->
+    {% comment %}
+    {% include_relative home_itens/home_tecnologies.html %}
+    {% endcomment %}
+
+    <!-- Experiences -->
+    {% include_relative home_itens/home_experiences.html %}
+
+    <!-- Education -->
+    {% include_relative home_itens/home_education.html %}
+
+    <!-- Languages -->
+    {% include_relative home_itens/home_languages.html %}
+
+    <!-- Prizes -->
+    {% include_relative home_itens/home_prizes.html %}
+  </main>
+
+
   {% comment %}
-  {% include_relative home_itens/home_tecnologies.html %}
+  {% include side-menu.html %}
   {% endcomment %}
-
-  <!-- Experiences -->
-  {% include_relative home_itens/home_experiences.html %}
-
-  <!-- Education -->
-  {% include_relative home_itens/home_education.html %}
-
-  <!-- Languages -->
-  {% include_relative home_itens/home_languages.html %}
-
-  <!-- Prizes -->
-  {% include_relative home_itens/home_prizes.html %}
-
-
 </div>

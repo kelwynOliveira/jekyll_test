@@ -1,5 +1,7 @@
-import initFetchCourses from "./modules/courses.js";
+import MenuMobile from "./modules/menu-mobile.js";
 import initFetchSocials from "./modules/socials.js";
 
-initFetchCourses();
 initFetchSocials();
+
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
+menuMobile.init();

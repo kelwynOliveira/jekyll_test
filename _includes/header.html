@@ -1,15 +1,36 @@
 <!-- Header -->
 <header class="header">
   <div class="header-container">
-    <div>
-      <h2 class="header-title"><a href=" {{ site.url }}">Kelwyn Oliveira</a></h2>
-    </div>
+    <nav class="menu" aria-label="Menu Lateral">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul class="menu-list" data-menu="list" id="menu">
+        {% for item in site.data.menu %}
+        <li><a class="menu-link" href="{{ item[page.lang].href | absolute_url}}">
+            <!-- <img src="{{ item.img }}" alt="{{ item[page.lang].alt }}"> -->
+            {{ item[page.lang].text }}
+          </a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
 
-    <div class="socials-footer">
-      <nav aria-label="Contatos">
-        <ul class="contact-list" data-list="contacts">
-        </ul>
-      </nav>
-    </div>
+  {% assign asset = "https://kelwynoliveira.github.io/Assets/img/portfolio/" %}
+  <div class="language-menu">
+    <nav aria-label="Liguagem">
+      <ul class="flex-row">
+        {% if page.lang == "en" %}
+        {% if page.permalink != absolute_url %}
+        <li><a href="{{page.permalink | absolute_url }}/pt"><img src="{{asset}}brazil.png" alt="Português"></a></li>
+        {% else %}
+        <li><a href="{{ 'home/pt' | absolute_url }}"><img src="{{asset}}brazil.png" alt="Português"></a></li>
+        {% endif %}
+        <li><a href=""><img src="{{asset}}uk.png" alt="English"></a></li>
+        {% else %}
+        <li><a href=""><img src="{{asset}}brazil.png" alt="Português"></a></li>
+        <li><a href="/{{ page.permalink | remove: '/pt' }}"><img src="{{asset}}uk.png" alt="English"></a></li>
+        {% endif %}
+      </ul>
+
+    </nav>
   </div>
 </header>

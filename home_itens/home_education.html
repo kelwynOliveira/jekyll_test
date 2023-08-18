@@ -1,6 +1,6 @@
 <section class="section-home-container">
   <div class="section-home-div">
-    <a class="section-home-title" href="#education">
+    <a class="section-home-title" href="#school">
       <img src="https://kelwynoliveira.github.io/Assets/svg/portfolio/school.svg" alt="{{ page.education }}">
       {{ page.education }}
     </a>
@@ -38,6 +38,10 @@
 
   <!-- Btn see more -->
   <div class="btn-more">
+    {% if page.lang == "pt" %}
+    <a class="btn-full" href="{{ '/education/pt' | absolute_url }}">{{ page.more }}</a>
+    {% else %}
     <a class="btn-full" href="{{ '/education' | absolute_url }}">{{ page.more }}</a>
+    {% endif %}
   </div>
 </section>

@@ -51,9 +51,16 @@ img {
 .body-container {
   margin: 0 auto;
   max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 32px;
+  position: relative;
 }
 .content {
   padding: 0 20px;
+}
+.main {
+  grid-column: 5/12;
 }
 
 h1.title {
@@ -330,6 +337,9 @@ h1.title {
 /* Header and Footer */
 .header {
   margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid var(--primary-color);
 }
 .footer {
@@ -357,6 +367,38 @@ h1.title {
 .footer-title a:hover {
   color: var(--primary-color);
 }
+.menu-list {
+  display: flex;
+}
+.menu-list li {
+  display: flex;
+  align-items: center;
+}
+.menu-list li + li::before {
+  content: "";
+  width: 2px;
+  height: 25px;
+  background: var(--primary-color);
+  margin: 0 20px;
+}
+
+.menu-link {
+  color: var(--primary-color);
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-link:hover {
+  filter: var(--filter);
+}
+.menu-link img {
+  width: 20px;
+}
+[data-menu="button"] {
+  display: none;
+}
+
 .contact-list {
   display: flex;
   text-align: center;
@@ -485,6 +527,74 @@ h1.title {
   color: var(--color-6);
 }
 
+/* Aside */
+
+/* Card */
+.card-grid {
+  grid-column: 1/5;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 32px;
+  margin: 32px 0;
+  border: 1px solid var(--primary-color);
+  border-radius: 32px;
+  padding: 32px;
+  align-items: center;
+}
+.card-title {
+  font-weight: 600;
+  line-height: 1.125;
+  font-size: 2rem;
+  font-family: Poppins;
+}
+.card-perfil img {
+  max-height: 240px;
+}
+.card-place {
+  font-family: "Roboto";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--color-6);
+}
+
+/* Assid menu */
+.aside-menu {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 32px;
+}
+.aside-menu-list {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 0;
+  border: 1px solid var(--primary-color);
+  border-radius: 32px;
+  padding: 16px;
+  gap: 16px;
+}
+
+@media (max-width: 1100px) {
+  .card-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .card {
+    display: none;
+  }
+  .main {
+    grid-column: 1/-1;
+  }
+}
+
 @media (max-width: 700px) {
   h1.title {
     font-size: 3rem;
@@ -497,5 +607,84 @@ h1.title {
   }
   .whomi {
     font-size: 2rem;
+  }
+  /* Menu mobile */
+  .menu-list li + li::before {
+    display: none;
+  }
+  .js [data-menu="button"] {
+    display: flex;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-weight: bold;
+    color: var(--primary-color-5);
+    cursor: pointer;
+    margin: 10px;
+    align-items: center;
+    position: relative;
+    z-index: 300;
+  }
+  .js [data-menu="button"]::before {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 12px;
+    background: var(--primary-color-5);
+    box-shadow: 0 4px var(--primary-color-5), 0 -4px var(--primary-color-5);
+    margin-right: 8px;
+    transition: transform 0.3s;
+  }
+  .js [data-menu="button"].active {
+    background: var(--bg);
+    color: var(--primary-color);
+    box-shadow: inset 0 1px var(--primary-color),
+      inset 0 -1px var(--primary-color), inset 1px 0 var(--primary-color),
+      inset -1px 0 var(--primary-color);
+  }
+  .js [data-menu="button"].active::before {
+    transform: rotate(90deg);
+    background: var(--primary-color);
+    box-shadow: 0 4px var(--primary-color), 0 -4px var(--primary-color);
+  }
+  .js [data-menu="list"] {
+    display: none;
+    position: absolute;
+    background: var(--bg);
+    z-index: 200;
+    /* width: 100%; */
+    top: 0;
+    left: 0;
+    padding: 100px 60px 60px 40px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+  }
+  .js [data-menu="list"].active {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: show-right 0.5s forwards;
+  }
+  .js .dropdown-menu {
+    position: static;
+    border: none;
+  }
+  .menu-link {
+    font-size: 1.5rem;
+    width: 100%;
+    align-items: start;
+  }
+}
+
+@keyframes show-right {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }

@@ -1,4 +1,4 @@
-function initFetchSocials() {
+export default function initFetchSocials() {
   async function fetchSocials(url) {
     try {
       const socialsResponse = await fetch(url);
@@ -24,4 +24,3 @@ function initFetchSocials() {
 
   fetchSocials("https://kelwynoliveira.github.io/Assets/data/socialsapi.json");
 }
-initFetchSocials();

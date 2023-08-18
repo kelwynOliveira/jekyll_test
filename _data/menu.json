@@ -1,0 +1,67 @@
+[
+  {
+    "img": "https://kelwynoliveira.github.io/Assets/svg/portfolio/home.svg",
+    "pt": {
+      "alt": "Home",
+      "href": "/home/pt",
+      "text": "Home"
+    },
+    "en": {
+      "alt": "Home",
+      "href": "/home",
+      "text": "Home"
+    }
+  },
+  {
+    "img": "https://kelwynoliveira.github.io/Assets/svg/portfolio/projects.svg",
+    "pt": {
+      "alt": "Projetos",
+      "href": "/projects/pt",
+      "text": "Projetos"
+    },
+    "en": {
+      "alt": "Projects",
+      "href": "/projects",
+      "text": "Projects"
+    }
+  },
+  {
+    "img": "https://kelwynoliveira.github.io/Assets/svg/portfolio/Experience.svg",
+    "pt": {
+      "alt": "Experiência",
+      "href": "/experiences/pt",
+      "text": "Experiência"
+    },
+    "en": {
+      "alt": "Experiences",
+      "href": "/experiences",
+      "text": "Experiences"
+    }
+  },
+  {
+    "img": "https://kelwynoliveira.github.io/Assets/svg/portfolio/school.svg",
+    "pt": {
+      "alt": "Escola",
+      "href": "/education/pt",
+      "text": "Certificações"
+    },
+    "en": {
+      "alt": "School",
+      "href": "/education",
+      "text": "Certifications"
+    }
+  },
+  {
+    "img": "https://kelwynoliveira.github.io/Assets/svg/portfolio/school.svg",
+    "pt": {
+      "alt": "Trofel",
+      "href": "/prizes/pt",
+      "text": "Prêmios"
+    },
+    "en": {
+      "alt": "Trophy",
+      "href": "/prizes",
+      "text": "Prizes"
+    }
+  }
+]

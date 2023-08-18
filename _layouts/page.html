@@ -4,7 +4,9 @@ layout: default
 
 <!-- corpo -->
 <div class="body-container">
-  <main class="content">
+  {% include card.html %}
+
+  <main class="content main">
     <h1 class="title">{{ page.title }}</h1>
 
     <div class="main-container">
@@ -12,7 +14,6 @@ layout: default
       {{ content }}
 
     </div>
-
   </main>
 
 </div>

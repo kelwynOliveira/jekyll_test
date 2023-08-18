@@ -25,6 +25,10 @@
 
   <!-- Btn see more -->
   <div class="btn-more">
+    {% if page.lang == "pt" %}
+    <a class="btn-full" href="{{ '/prizes/pt' | absolute_url }}">{{ page.more }}</a>
+    {% else %}
     <a class="btn-full" href="{{ '/prizes' | absolute_url }}">{{ page.more }}</a>
+    {% endif %}
   </div>
 </section>
