@@ -430,9 +430,9 @@ h1.title {
 .section-home-div {
   position: sticky;
   position: -webkit-sticky;
-  top: 2rem;
+  top: 0;
   background-color: var(--bg);
-  box-shadow: 0 -2rem 0 0 var(--bg), 0 0.5rem 0 0 var(--bg);
+  /* box-shadow: 0 -2rem 0 0 var(--bg), 0 0.5rem 0 0 var(--bg); */
   z-index: 99;
   font-weight: 600;
   line-height: 1.5;
@@ -449,7 +449,7 @@ h1.title {
   width: fit-content;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  margin: 2rem 0;
+  margin: 10px 0;
   padding: 0.5rem 1rem;
   border-radius: 2rem;
 }
