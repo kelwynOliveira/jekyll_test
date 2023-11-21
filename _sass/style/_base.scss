@@ -6,6 +6,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   overflow-wrap: break-word;
+  transition: 0.5s;
 }
 
 body,
@@ -127,6 +128,7 @@ h6 {
 a {
   color: $link-color;
   text-decoration: none;
+  font-weight: 700;
 
   &:hover {
     color: $text-color;
@@ -228,7 +230,7 @@ pre {
 
 .social-media-list {
   li + li {
-    padding-top: 5px;
+    padding-top: 10px;
   }
 }
 

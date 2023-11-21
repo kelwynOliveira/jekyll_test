@@ -1,0 +1,15 @@
+---
+layout: default
+permalink: /all/
+---
+
+<div class="home">
+
+  <section class="container">
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      {%- include posts-presentation.html -%}
+      {%- endfor -%}
+    </ul>
+  </section>
+</div>

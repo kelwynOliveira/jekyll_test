@@ -11,7 +11,20 @@ layout: default
   </section>
 
   <section class="container">
-    {%- if page.is-tag -%}
+    {%- if page.is-category -%}
+
+    {%- for category in site.categories -%}
+    {%- if category[0] == page.posts-category -%}
+    <ul class="post-list">
+      {% for post in category[1] %}
+      {%- include posts-presentation.html -%}
+      {% endfor %}
+    </ul>
+    {%- endif -%}
+    {%- endfor -%}
+
+    {%- elsif page.is-tag -%}
+
     {%- for tag in site.tags -%}
     {%- if tag[0] == page.posts-tag -%}
     <ul class="post-list">
@@ -21,6 +34,7 @@ layout: default
     </ul>
     {%- endif -%}
     {%- endfor -%}
+
     {%- endif -%}
   </section>
 </div>

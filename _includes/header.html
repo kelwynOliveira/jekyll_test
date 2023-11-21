@@ -1,14 +1,18 @@
 <!-- Header -->
 <header class="header">
-  <div class="header-content container">
-    <h1 class="site-title"><a class="page-link" rel="author" href="{{ '/' | base_url }}">{{ site.title | escape }}</a></h1>
+  <div class="header-content">
+    <div class="container">
+      <h1 class="site-title"><a class="page-link" rel="author" href="{{ '/' | base_url }}">{{ site.title | escape }}</a></h1>
 
-    <nav aria-label="menu-header">
-      <ul class="menu-list">
-        <li><a href="https://kelwynoliveira.github.io/nolukai/" target="_blank">Blog</a></li>
-        <!-- <li><a href="{{ '/about/' | relative_url }}">About</a></li> -->
-        <li><a href="{{ '/resume/' | relative_url }}">Curriculum</a></li>
-      </ul>
-    </nav>
+      <nav aria-label="menu-header">
+        <ul class="menu-list">
+          <li><a href="https://kelwynoliveira.github.io/nolukai/" target="_blank">Blog</a></li>
+          <!-- <li><a href="{{ '/about/' | relative_url }}">About</a></li> -->
+          <li><a href="{{ '/resume/' | relative_url }}">Curriculum</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
+
+  {%- include categories-menu.html -%}
 </header>

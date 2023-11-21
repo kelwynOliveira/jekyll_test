@@ -11,6 +11,7 @@ image-alt: "High-school transcript in Mechatronics Technician."
 category: academics
 tags:
   - academics
+  - certificate
   - mechatronics
   - technician
 ---
