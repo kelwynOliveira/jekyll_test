@@ -51,8 +51,16 @@
   padding-bottom: $spacing-unit;
   background-color: $contrast-color;
   overflow: auto;
-  .link-category {
-    color: $brand-color;
+  .menu-list {
+    .link-category {
+      border-color: $brand-color;
+      color: $brand-color;
+    }
+    .link-category:hover {
+      border: none;
+      color: $contrast-color;
+      background-color: $brand-color;
+    }
   }
 }
 
