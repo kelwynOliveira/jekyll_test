@@ -1,20 +1,13 @@
-<!-- Footer -->
-<footer class="footer">
-  <div class="footer-container">
-    <div>
-      <h2 class="footer-title"><a href="{{ site.url }}">Kelwyn Oliveira</a></h2>
-    </div>
+<footer class="site-footer">
+  <data class="u-url" href="{{ '/' | relative_url }}"></data>
 
-    <div class="socials-footer">
-      <nav aria-label="Contatos">
-        <ul class="contact-list" data-list="contacts">
-        </ul>
-      </nav>
+  <div class="footer-content container">
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    </a>
+
+    <div class="social-itens">
+      {%- include social.html -%}
     </div>
   </div>
 </footer>
-
-<script type="module" src="{{ '/assets/js/script.js' | relative_url }}"></script>
-</body>
-
-</html>

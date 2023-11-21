@@ -1,0 +1,9 @@
+<div class="author">
+  <div class="author-id">
+    <img src="{{ '/assets/img/institutes/' | append: post.institute | append: '.jpg' | relative_url}}" alt="">
+    <span class="institute">{{ post.institute | capitalize }}</span>
+  </div>
+  <div class="post-type">
+    <p>{{ post.category }}</p>
+  </div>
+</div>

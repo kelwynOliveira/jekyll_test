@@ -1,5 +1,38 @@
 ---
 layout: default
 ---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-{{ content }}
+  <header class="post-header">
+    <div class="container">
+      <div class="post-thumb">
+        <img class="thumb" src="{{ page.image | relative_url }}" alt="{{ page.image-alt }}">
+      </div>
+
+
+      <div class="title-card">
+        <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+
+        <div class="post-date">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <img class="date-img" src="{{ 'assets/svg/date.svg' | relative_url }}" alt="{{ page.image-alt }}">
+          <date class="post-meta">{{ page.date | date: date_format }}</date>
+        </div>
+
+        <ul class="post-tags">
+          {%- for tag in page.tags -%}
+          {%- assign tag_url = tag | slugify: 'latin' -%}
+          <li><a class="link-tag" href='{{ "/tag/" | append: tag_url  | relative_url }}'>{{ tag | escape | capitalize }}</a></li>
+          {%- endfor -%}
+        </ul>
+
+      </div>
+    </div>
+  </header>
+
+  <section class="post-content container" itemprop="articleBody">
+    {{ content }}
+  </section>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

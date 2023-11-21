@@ -1,0 +1,25 @@
+<!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+
+
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<li class="post-item">
+  <a class="post-link post-thumb" href="{{ post.url | relative_url }}">
+    <img src="{{ post.image | relative_url }}" alt="{{ post.image-alt }}">
+  </a>
+
+  <div class="post-info">
+    <p class="post-meta post-date"><small>{{ post.date | date: date_format }}</small></p>
+
+    <a class="post-link post-title-link" href="{{ post.url | relative_url }}">
+      <h3 class="post-title">{{ post.title | escape }}</h3>
+    </a>
+
+    {%- if site.show_excerpts -%}
+    <div class="excerpt">
+      {{ post.excerpt }}
+    </div>
+    {%- endif -%}
+
+    {%- include author.html -%}
+  </div>
+</li>
