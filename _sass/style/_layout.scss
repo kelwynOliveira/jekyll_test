@@ -234,13 +234,13 @@
 }
 
 .social-media-list {
-  transition: 0s;
   list-style-type: none;
   margin: 0;
   li a {
     display: flex;
     gap: 10px;
     align-items: center;
+    transition: 0s;
   }
   .instagram:hover .svg-icon {
     fill: #a620ff;
