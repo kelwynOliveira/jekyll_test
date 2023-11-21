@@ -10,7 +10,6 @@ image: "/assets/certificates/img/licences-and-certifications/scrum-org/professio
 image-alt: "Certification in Professional SCRUM Master I."
 category: certificate
 tags:
-  - course
   - certificate
   - scrum
   - agile

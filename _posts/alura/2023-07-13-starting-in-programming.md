@@ -9,7 +9,12 @@ description: "Course certificate at Alura on introduction to programming."
 image: "/assets/certificates/img/intensive-courses/alura/degrees/programming/starting-in-programming/front-en.jpg"
 image-alt: "Starting in programming certificate"
 category: course
-tags: course certificate javascript html css logic
+tags:
+  - course
+  - javascript
+  - html
+  - css
+  - logic
 ---
 
 Course certificate at Alura.

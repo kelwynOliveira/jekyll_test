@@ -9,7 +9,10 @@ description: "Course certificate at Alura about git and github types of branchin
 image: "/assets/certificates/img/intensive-courses/alura/courses/git-and-github-branching-strategies-conflicts-and-pull-requests/front-en.jpg"
 image-alt: "Git and GitHub: branching strategies, conflicts and pull requests certificate"
 category: course
-tags: course certificate git github
+tags:
+  - course
+  - git
+  - github
 ---
 
 Course certificate at Alura.

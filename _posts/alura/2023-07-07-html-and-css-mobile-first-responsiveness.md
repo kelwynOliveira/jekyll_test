@@ -9,7 +9,11 @@ description: "Course certificate at Alura about web development using mobile fir
 image: "/assets/certificates/img/intensive-courses/alura/courses/html-and-css-mobile-first-responsiveness/front-en.jpg"
 image-alt: "HTML and CSS: mobile first responsiveness certificate"
 category: course
-tags: course certificate html css front-end
+tags:
+  - course
+  - html
+  - css
+  - front-end
 ---
 
 Course certificate at Alura.

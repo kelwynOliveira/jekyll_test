@@ -9,7 +9,9 @@ description: "Course certificate at Alura about logic loops using JavaScript."
 image: "/assets/certificates/img/intensive-courses/alura/courses/programming-logic-loops-and-lists-with-javascript/front-en.jpg"
 image-alt: "Programming logic: loops and lists with JavaScript certificate"
 category: course
-tags: course certificate javascript
+tags:
+  - course
+  - javascript
 ---
 
 Course certificate at Alura.

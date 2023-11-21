@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Qlikview: introduction to Qlik certificate."
 category: course
 tags:
   - course
-  - certificate
   - qlik
 ---
 

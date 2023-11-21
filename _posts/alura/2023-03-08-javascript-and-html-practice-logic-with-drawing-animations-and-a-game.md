@@ -9,7 +9,11 @@ description: "Course certificate at Alura about JavaScript and HTML to practice 
 image: "/assets/certificates/img/intensive-courses/alura/courses/javascript-and-html-practice-logic-with-drawing-animations-and-a-game/front-en.jpg"
 image-alt: "JavaScript and HTML: practice logic with drawing animations and a game certificate"
 category: course
-tags: course certificate javascript html game
+tags:
+  - course
+  - javascript
+  - html
+  - game
 ---
 
 Course certificate at Alura.

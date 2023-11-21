@@ -11,7 +11,6 @@ image-alt: "Course at ITEGAM in applied statistics certificate."
 category: course
 tags:
   - course
-  - certificate
   - statistics
 ---
 

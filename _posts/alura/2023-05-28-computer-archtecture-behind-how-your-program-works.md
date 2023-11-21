@@ -11,7 +11,6 @@ image-alt: "Computer archtecture: behind how your program works certificate"
 category: course
 tags:
   - course
-  - certificate
   - computer archtecture
 ---
 

@@ -11,7 +11,6 @@ image-alt: "Course at SEBRAE in How to come up with creative ideas and innovate 
 category: course
 tags:
   - course
-  - certificate
   - entrepreneurship
   - inovation
 ---

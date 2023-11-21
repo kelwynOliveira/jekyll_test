@@ -10,7 +10,6 @@ image: "/assets/certificates/img/licences-and-certifications/ifam/brazilian-robo
 image-alt: "Brazilian Robotics Olympiad (OBR) 2013 certificate"
 category: competition
 tags:
-  - certificate
   - competition
   - robots
 ---

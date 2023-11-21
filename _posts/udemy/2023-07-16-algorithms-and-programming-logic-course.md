@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Algorithms and programming logic certificate."
 category: course
 tags:
   - course
-  - certificate
   - programming
 ---
 

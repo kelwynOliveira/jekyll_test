@@ -11,7 +11,6 @@ image-alt: "Course at Origamid in Advanced UI Design certificate."
 category: course
 tags:
   - course
-  - certificate
   - design
   - user interface
 ---

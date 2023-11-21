@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Creating dynamic web pages with PHP certificate."
 category: course
 tags:
   - course
-  - certificate
   - php
 ---
 

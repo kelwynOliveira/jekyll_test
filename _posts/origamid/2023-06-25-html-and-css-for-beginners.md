@@ -11,7 +11,6 @@ image-alt: "Course at Origamid in HTML and CSS certificate."
 category: course
 tags:
   - course
-  - certificate
   - web design
   - html
   - css

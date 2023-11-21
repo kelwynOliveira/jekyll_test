@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Introduction to oriented-object with php certific
 category: course
 tags:
   - course
-  - certificate
   - php
 ---
 

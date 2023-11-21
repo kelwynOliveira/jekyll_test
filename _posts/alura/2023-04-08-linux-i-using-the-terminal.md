@@ -9,7 +9,9 @@ description: "Course certificate at Alura about how to use Linux terminal."
 image: "/assets/certificates/img/intensive-courses/alura/courses/linux-i-using-the-terminal/front-en.jpg"
 image-alt: "Linux I: using the terminal certificate"
 category: course
-tags: course certificate Linux
+tags:
+  - course
+  - Linux
 ---
 
 Course certificate at Alura.

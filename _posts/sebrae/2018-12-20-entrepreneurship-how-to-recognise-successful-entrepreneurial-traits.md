@@ -11,7 +11,6 @@ image-alt: "Course at SEBRAE in Entrepreneurship: how to recognise successful en
 category: course
 tags:
   - course
-  - certificate
   - entrepreneurship
 ---
 

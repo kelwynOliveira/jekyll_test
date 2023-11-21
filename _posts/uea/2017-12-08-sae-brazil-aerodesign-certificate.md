@@ -10,10 +10,9 @@ image: "/assets/certificates/img/licences-and-certifications/uea/urutau/sae-braz
 image-alt: "SAE Brazil Aerodesign competition certificate."
 category: competition
 tags:
-  - academics
-  - certificate
-  - project
   - competition
+  - project
+  - academics
 ---
 
 SAE Brazil Aerodesign competition certificate - 2017.

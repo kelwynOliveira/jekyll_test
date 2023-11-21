@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Introduction to JQuery certificate."
 category: course
 tags:
   - course
-  - certificate
   - jquery
   - javascript
 ---

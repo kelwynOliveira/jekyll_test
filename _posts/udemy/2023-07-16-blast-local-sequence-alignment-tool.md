@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in BLAST: local sequence alignment tool certificate.
 category: course
 tags:
   - course
-  - certificate
   - blast
 ---
 

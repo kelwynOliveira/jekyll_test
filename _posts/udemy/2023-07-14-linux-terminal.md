@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in linux terminal certificate."
 category: course
 tags:
   - course
-  - certificate
   - linux
 ---
 

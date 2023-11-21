@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in HTML5 for those who know nothing about HTML5 cert
 category: course
 tags:
   - course
-  - certificate
   - html
 ---
 

@@ -9,7 +9,9 @@ description: "Course certificate at Alura about object orientation with Java."
 image: "/assets/certificates/img/intensive-courses/alura/courses/java-oo-object-orientation/front-en.jpg"
 image-alt: "Java OO: object orientation certificate"
 category: course
-tags: course certificate java
+tags:
+  - course
+  - java
 ---
 
 Course certificate at Alura.

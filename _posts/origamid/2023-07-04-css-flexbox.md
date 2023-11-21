@@ -11,7 +11,6 @@ image-alt: "Course at Origamid in CSS Flexbox certificate."
 category: course
 tags:
   - course
-  - certificate
   - web design
   - css
   - front-end

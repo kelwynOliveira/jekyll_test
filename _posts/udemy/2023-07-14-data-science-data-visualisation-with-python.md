@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in data-science and data-visualisation with python c
 category: course
 tags:
   - course
-  - certificate
   - python
   - data science
 ---

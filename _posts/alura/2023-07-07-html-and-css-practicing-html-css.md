@@ -9,7 +9,11 @@ description: "Course certificate at Alura about practicing HTML and CSS."
 image: "/assets/certificates/img/intensive-courses/alura/courses/html-and-css-practicing-html-css/front-en.jpg"
 image-alt: "HTML and CSS: practicing HTML and CSS certificate"
 category: course
-tags: course certificate html css front-end
+tags:
+  - course
+  - html
+  - css
+  - front-end
 ---
 
 Course certificate at Alura.

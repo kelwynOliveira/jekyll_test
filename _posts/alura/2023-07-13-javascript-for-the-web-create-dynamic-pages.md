@@ -9,7 +9,10 @@ description: "Course certificate at Alura on using JavaScript to create dynamic 
 image: "/assets/certificates/img/intensive-courses/alura/courses/javascript-for-the-web-create-dynamic-pages/front-en.jpg"
 image-alt: "JavaScript for the web: create dynamic pages certificate"
 category: course
-tags: course certificate javascript front-end
+tags:
+  - course
+  - javascript
+  - front-end
 ---
 
 Course certificate at Alura.

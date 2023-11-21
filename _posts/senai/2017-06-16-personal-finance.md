@@ -11,7 +11,6 @@ image-alt: "Course at SENAI in Personal finance certificate."
 category: course
 tags:
   - course
-  - certificate
   - finance
 ---
 

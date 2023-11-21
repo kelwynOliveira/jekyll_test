@@ -11,7 +11,6 @@ image-alt: "Android development: application end embeded (AOSP) course certifica
 category: course
 tags:
   - course
-  - certificate
   - android
 ---
 

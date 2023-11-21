@@ -11,7 +11,6 @@ image-alt: "Course at Ocean in Digital painting for games certificate."
 category: course
 tags:
   - course
-  - certificate
   - games
   - design
 ---

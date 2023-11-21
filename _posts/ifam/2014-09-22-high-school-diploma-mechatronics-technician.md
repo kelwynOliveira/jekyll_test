@@ -10,7 +10,6 @@ image: "/assets/certificates/img/licences-and-certifications/ifam/high-school-di
 image-alt: "High-school diploma in Mechatronics Technician."
 category: academics
 tags:
-  - certificate
   - academics
   - mechatronics
   - technician

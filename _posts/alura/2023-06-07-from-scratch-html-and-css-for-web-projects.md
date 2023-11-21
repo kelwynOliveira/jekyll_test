@@ -9,7 +9,10 @@ description: "Course certificate at Alura about how to HTML and CSS for web proj
 image: "/assets/certificates/img/intensive-courses/alura/degrees/front-end/from-scratch-html-and-css-for-web-projects/front-en.jpg"
 image-alt: "From scratch: HTML and CSS for web projects certificate"
 category: course
-tags: course certificate html css
+tags:
+  - course
+  - html
+  - css
 ---
 
 Course certificate at Alura.

@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Artificial Intelligence and Machine Learning cert
 category: course
 tags:
   - course
-  - certificate
   - artificial intelligence
   - machine learning
 ---

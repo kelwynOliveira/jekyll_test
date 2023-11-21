@@ -11,7 +11,6 @@ image-alt: "Course at Ocean in Introduction to VR glasses certificate."
 category: course
 tags:
   - course
-  - certificate
   - virtual reality
 ---
 

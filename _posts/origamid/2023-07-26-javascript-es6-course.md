@@ -11,7 +11,6 @@ image-alt: "Course at Origamid in JavaScript - ES6 certificate."
 category: course
 tags:
   - course
-  - certificate
   - design
   - user interface
 ---

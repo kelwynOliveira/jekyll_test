@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Augmented Reality with Unity and Vuforia certific
 category: course
 tags:
   - course
-  - certificate
   - augmented reality
   - games
 ---

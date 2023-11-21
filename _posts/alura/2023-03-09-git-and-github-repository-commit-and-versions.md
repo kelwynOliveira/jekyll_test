@@ -9,7 +9,10 @@ description: "Course certificate at Alura about how to use git and hithub for re
 image: "/assets/certificates/img/intensive-courses/alura/courses/git-and-github-repository-commit-and-versions/front-en.jpg"
 image-alt: "Git and GitHub: repository, commit and versions certificate"
 category: course
-tags: course certificate git github
+tags:
+  - course
+  - git
+  - github
 ---
 
 Course certificate at Alura.

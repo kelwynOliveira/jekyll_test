@@ -11,7 +11,6 @@ image-alt: "Course at SEBRAE in Entrepreneurship as a career option certificate.
 category: course
 tags:
   - course
-  - certificate
   - entrepreneurship
 ---
 

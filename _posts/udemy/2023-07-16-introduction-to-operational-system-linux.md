@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Introduction to operational system linux certific
 category: course
 tags:
   - course
-  - certificate
   - linux
 ---
 

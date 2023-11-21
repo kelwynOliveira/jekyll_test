@@ -11,7 +11,6 @@ image-alt: "Course at Origamid in UI design for beginners certificate."
 category: course
 tags:
   - course
-  - certificate
   - web design
   - user iterface
 ---

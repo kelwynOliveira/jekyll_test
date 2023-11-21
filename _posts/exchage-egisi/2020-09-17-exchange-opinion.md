@@ -10,7 +10,7 @@ image: "/assets/certificates/img/licences-and-certifications/exchage-eigsi/excha
 image-alt: "Exchange opinion about BRAFITEC certificate"
 category: academics
 tags:
-  - certificate
+  - academics
   - exchange
 ---
 

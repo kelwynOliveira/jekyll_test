@@ -11,7 +11,6 @@ image-alt: "Course at UEA in Entrepreneurship certificate."
 category: course
 tags:
   - course
-  - certificate
   - entrepreneurship
 ---
 

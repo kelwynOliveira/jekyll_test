@@ -9,7 +9,9 @@ description: "Course certificate at Alura about Java JRE and JDK on how to compi
 image: "/assets/certificates/img/intensive-courses/alura/courses/java-jre-and-jdk-compile-and-run-your-application/front-en.jpg"
 image-alt: "Java JRE and JDK: compile and run your application certificate"
 category: course
-tags: course certificate java
+tags:
+  - course
+  - java
 ---
 
 Course certificate at Alura.

@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Introduction to computer programming certificate.
 category: course
 tags:
   - course
-  - certificate
   - programming
 ---
 

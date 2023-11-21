@@ -10,10 +10,9 @@ image: "/assets/certificates/img/licences-and-certifications/uea/urutau/honour-u
 image-alt: "Honour - Urutau Aerodesign certificate."
 category: competition
 tags:
-  - academics
-  - certificate
-  - project
   - competition
+  - project
+  - academics
 ---
 
 Honour for participating in academic groupe competition Urutau Aerodesign.

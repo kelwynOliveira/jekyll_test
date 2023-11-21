@@ -11,7 +11,6 @@ image-alt: "Course at SENAC in Computer assembly, configuration and maintenance 
 category: course
 tags:
   - course
-  - certificate
   - computer maintenance
 ---
 

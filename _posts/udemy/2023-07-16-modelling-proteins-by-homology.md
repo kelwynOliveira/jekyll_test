@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Modelling proteins by homology certificate."
 category: course
 tags:
   - course
-  - certificate
   - biology
 ---
 

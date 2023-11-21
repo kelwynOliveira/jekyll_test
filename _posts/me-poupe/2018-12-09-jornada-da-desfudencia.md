@@ -11,8 +11,7 @@ image-alt: "Course at Me Poupe in personal finances certificate."
 category: course
 tags:
   - course
-    - certificate
-    - finances
+  - finances
 ---
 
 Course certificate in personal finances at Me Poupe.

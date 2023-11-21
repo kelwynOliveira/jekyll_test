@@ -10,7 +10,6 @@ image: "/assets/certificates/img/licences-and-certifications/ifam/high-school-tr
 image-alt: "High-school transcript in Mechatronics Technician."
 category: academics
 tags:
-  - certificate
   - academics
   - mechatronics
   - technician

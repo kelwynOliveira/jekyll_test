@@ -11,7 +11,6 @@ image-alt: "Research project at FAPEAM in PAIC certificate."
 category: academics
 tags:
   - academics
-  - certificate
   - project
   - research
 ---

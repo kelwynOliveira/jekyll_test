@@ -11,7 +11,6 @@ image-alt: "Course at Origamid in CSS Grid Layout certificate."
 category: course
 tags:
   - course
-  - certificate
   - web design
   - css
   - front-end

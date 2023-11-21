@@ -11,7 +11,6 @@ image-alt: "Course at Udemy in Python for data-science and machine learning cert
 category: course
 tags:
   - course
-  - certificate
   - python
   - machine learning
   - data science

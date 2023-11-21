@@ -9,7 +9,10 @@ description: "Course certificate at Alura on object oriented programming in gola
 image: "/assets/certificates/img/intensive-courses/alura/courses/go-object-oriented/front-en.jpg"
 image-alt: "GO: object oriented certificate"
 category: course
-tags: course certificate go golang
+tags:
+  - course
+  - go
+  - golang
 ---
 
 Course certificate at Alura.

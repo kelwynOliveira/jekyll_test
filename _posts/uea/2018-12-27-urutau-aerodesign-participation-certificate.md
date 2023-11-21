@@ -10,10 +10,9 @@ image: "/assets/certificates/img/licences-and-certifications/uea/urutau/urutau-a
 image-alt: "Urutau Aerodesign participation certificate."
 category: competition
 tags:
-  - academics
-  - certificate
-  - project
   - competition
+  - academics
+  - project
 ---
 
 Urutau Aerodesign participation certificate.

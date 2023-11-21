@@ -11,7 +11,6 @@ image-alt: "Course at Ocean in Introduction to IoT certificate."
 category: course
 tags:
   - course
-  - certificate
   - internet of things
 ---
 
