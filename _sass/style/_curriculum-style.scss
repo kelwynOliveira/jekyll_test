@@ -9,12 +9,16 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit: 30px !default;
 $text-color: #111 !default;
+$border-light: 3px solid #c9cdce;
+$border-lighter: 3px solid #fff;
+$border-dark: 3px solid #666;
+$border-shadow-window: 3px solid #000;
 
 // Width of the content area
 $content-width: 210mm !default;
 
 $on-min: 450px !default;
-$on-palm: 500px !default;
+$on-palm: 800px !default;
 $on-laptop: 1200px !default;
 
 @mixin media-query($device) {
@@ -27,99 +31,4 @@ $on-laptop: 1200px !default;
   font-size: $base-font-size * $ratio;
 }
 
-@import "style/_reset";
-/*
-To remove the printing date, title page, link and pagination on printing the page
-*/
-/*
-@page {
-  size: auto;
-  margin: 0mm;
-}
-*/
-
-* {
-  font: $base-font-weight #{$small-font-size}/#{$base-line-height}
-    $base-font-family;
-}
-
-a,
-a.active,
-a.visited,
-a.hover {
-  color: $text-color;
-  text-decoration: underline;
-}
-
-table {
-  border-collapse: separate;
-  border-spacing: $base-font-size 0;
-}
-
-.container {
-  max-width: $content-width;
-  margin: 0 auto;
-}
-
-.header,
-.footer {
-  margin: $spacing-unit 0;
-}
-
-.manheader {
-  display: flex;
-  justify-content: space-between;
-}
-
-.title {
-  font-size: $base-font-size;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-top: calc(#{$spacing-unit} / 2);
-  line-height: $base-line-height * 0.8;
-}
-
-.subtext {
-  margin-left: $spacing-unit;
-  @include media-query($on-palm) {
-    margin-left: calc(#{$spacing-unit} / 2);
-  }
-}
-
-.doublesubtext {
-  margin-left: calc(#{$spacing-unit} * 2);
-  @include media-query($on-palm) {
-    margin-left: $spacing-unit;
-  }
-}
-
-.triplesubtext {
-  margin-left: calc(#{$spacing-unit} * 2.5);
-  @include media-query($on-palm) {
-    margin-left: calc(#{$spacing-unit} * 1.5);
-  }
-}
-
-.bottomcut {
-  margin-bottom: 0px;
-}
-
-@media print {
-  * {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-    font: $base-font-weight 11px/1.125 $base-font-family;
-  }
-
-  table {
-    border-spacing: 22px 0;
-  }
-
-  .title {
-    font-size: 12px;
-  }
-
-  .noprint {
-    display: none;
-  }
-}
+@import "style/_reset", "_c_visual", "style/_c_printeable";

@@ -9,23 +9,40 @@ description: Kelwyn Oliveira's curriculum
 
 {%- include /curriculum/head.html -%}
 
-<body>
+<body noprint>
 
-  <div class="noprint">
-    {%- include /curriculum/header.html -%}
-  </div>
+  {%- include /curriculum/inputs.html -%}
 
-  <main class="container">
-    {%- include /curriculum/c-header.html -%}
-    {%- include /curriculum/c-history.html -%}
-    {%- include /curriculum/c-options.html -%}
-    {%- include /curriculum/c-files.html -%}
-    {%- include /curriculum/c-author.html -%}
+  {%- include /curriculum/header.html -%}
+
+  <main>
+    <section class="printeable container">
+      {%- include /curriculum/c-header.html -%}
+      {%- include /curriculum/c-history.html -%}
+      {%- include /curriculum/c-options.html -%}
+      {%- include /curriculum/c-files.html -%}
+      {%- include /curriculum/c-author.html -%}
+    </section>
+
+    <div class="noprint windows-div">
+      <section class="windows">
+        {%- include /curriculum/visual/aside-itens.html -%}
+        <aside class="folders">
+          <div class="window-content">
+            {%- include /curriculum/visual/aside.html -%}
+          </div>
+        </aside>
+        <article class="content">
+          <div class="window-content">
+            {%- include /curriculum/visual/article.html -%}
+          </div>
+        </article>
+      </section>
+    </div>
+
   </main>
 
-  <div class="noprint">
-    {%- include /curriculum/footer.html -%}
-  </div>
+  {%- include /curriculum/footer.html -%}
 
 </body>
 
