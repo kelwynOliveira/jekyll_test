@@ -8,9 +8,9 @@ date: 2018-04-10 18:00:00 -0400
 description: "Course at Ocean in Introduction to IoT."
 image: "/assets/certificates/img/intensive-courses/ocean/introduction-to-iot.jpg"
 image-alt: "Course at Ocean in Introduction to IoT certificate."
-category: courses
+category: course
 tags:
-  - courses
+  - course
   - internet of things
 ---
 

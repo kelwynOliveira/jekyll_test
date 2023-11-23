@@ -8,9 +8,9 @@ date: 2020-01-23 18:00:00 -0400
 description: "Bulletin of S7 at EIGSI - exchange in France."
 image: "/assets/certificates/img/licences-and-certifications/exchage-eigsi/eigsi-bulletin-S7/front-fr.jpg"
 image-alt: "Bulletin of S7 at EIGSI - exchange in France"
-category: education
+category: academics
 tags:
-  - education
+  - academics
   - exchange
 ---
 
