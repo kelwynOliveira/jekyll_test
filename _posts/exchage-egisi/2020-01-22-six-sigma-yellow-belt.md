@@ -8,9 +8,9 @@ date: 2020-01-22 18:00:00 -0400
 description: "Cerificate at Institute Performance France about Six-sigma - yellow belt."
 image: "/assets/certificates/img/licences-and-certifications/exchage-eigsi/six-sigma-yellow-belt.jpg"
 image-alt: "Six-sigma - yellow belt certificate"
-category: licences
+category: certificate
 tags:
-  - licences
+  - certificate
   - six sigma
 ---
 

@@ -8,9 +8,9 @@ date: 2019-03-14 18:00:00 -0400
 description: "Attestation de Reussite on assesment Diplôme d'Études en Langue Française (DELF) B1."
 image: "/assets/certificates/img/licences-and-certifications/exchage-eigsi/DELF/attestation-de-reussite.jpg"
 image-alt: "Attestation de Reussite - DELF certificate"
-category: licences
+category: certificate
 tags:
-  - licences
+  - certificate
   - french
 ---
 

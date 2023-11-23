@@ -1,85 +1,18 @@
-<header class="header noprint">
-  <div class="info">
-    <img src="{{ '/assets/img/windows/about.png' | relative_url }}" alt="">
-    <h1>Kelwyn Oliveira's curriculum - Engineer:\</h1>
+<!-- Header -->
+<header class="header">
+  <div class="header-content">
+    <div class="container">
+      <h1 class="site-title"><a class="page-link" rel="author" href="{{ '/' | base_url }}">{{ site.title | escape }}</a></h1>
+
+      <nav aria-label="menu-header">
+        <ul class="menu-list">
+          <li><a href="https://kelwynoliveira.github.io/nolukai/" target="_blank">Blog</a></li>
+          <!-- <li><a href="{{ '/about/' | relative_url }}">About</a></li> -->
+          <li><a href="{{ '/curriculum/' | relative_url }}">Curriculum</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
 
-  <nav class="menu">
-    <div class="main-options">
-      <label class="level-1" for="file"><span>F</span>ile</label>
-      <label class="level-1" for="view"><span>V</span>iew</label>
-      <label class="level-1" for="help"><span>C</span>ontact</label>
-      <div class="space"></div>
-    </div>
-
-    <div class="menu-item menu-item-file">
-      <button class="button" onclick="window.print();">
-        <img src="{{ '/assets/img/windows/print.png' | relative_url }}" alt="Print button image">
-        <span>Print</span>
-      </button>
-
-      <a href="theFile.pdf" download>
-        <button class="button">
-          <img src="{{ '/assets/img/windows/save.png' | relative_url }}" alt="Save button image">
-          <span>Save</span>
-        </button>
-      </a>
-
-      <button class="button">
-        <img src="{{ '/assets/img/windows/share.png' | relative_url }}" alt="Share button image">
-        <span>Share</span>
-      </button>
-    </div>
-
-    <div class="menu-item menu-item-view">
-      <label class="level-2 button" for="print-version">
-        <img src="{{ '/assets/img/windows/print-version.png' | relative_url }}" alt="">
-        <span>Print version</label>
-      </label>
-
-      <label class="level-2 button" for="windows-version">
-        <img src="{{ '/assets/img/windows/windows-version.png' | relative_url }}" alt="">
-        <span>Windows version</span>
-      </label>
-    </div>
-
-    <div class="menu-item menu-item-help">
-      <a href="mailto:kelwyn.oliveira@gmail.com?Subject=You%27re%20Hired!">
-        <button class="button">
-          <img src="{{ '/assets/img/windows/email.png' | relative_url }}" alt="">
-          <span>E-mail</span>
-        </button>
-      </a>
-
-      <a href="https://www.linkedin.com/in/kelwynoliveira/">
-        <button class="button">
-          <img src="{{ '/assets/img/windows/linkedin.png' | relative_url }}" alt="">
-          <span>LinkedIn</label>
-        </button>
-      </a>
-
-      <a href="https://github.com/kelwynOliveira">
-        <button class="button">
-          <img src="{{ '/assets/img/windows/github.png' | relative_url }}" alt="">
-          <span>GitHub</span>
-        </button>
-      </a>
-
-      <a href="https://kelwynoliveira.github.io/nolukai/">
-        <button class="button">
-          <img src="{{ '/assets/img/windows/webpage.png' | relative_url }}" alt="">
-          <span>Blog</span>
-        </button>
-      </a>
-
-      <a href="https://www.youtube.com/@nolukai">
-        <button class="button">
-          <img src="{{ '/assets/img/windows/youtube.png' | relative_url }}" alt="">
-          <span>YouTube</span>
-        </button>
-      </a>
-
-    </div>
-
-  </nav>
+  {%- include categories-menu.html -%}
 </header>

@@ -8,9 +8,9 @@ date: 2023-07-13 18:00:00 -0400
 description: "Course certificate at Alura on using JavaScript to create dynamic pages."
 image: "/assets/certificates/img/intensive-courses/alura/courses/javascript-for-the-web-create-dynamic-pages/front-en.jpg"
 image-alt: "JavaScript for the web: create dynamic pages certificate"
-category: courses
+category: course
 tags:
-  - courses
+  - course
   - javascript
   - front-end
 ---

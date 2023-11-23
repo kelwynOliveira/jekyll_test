@@ -8,9 +8,9 @@ date: 2023-06-25 18:00:00 -0400
 description: "Course at Origamid in HTML and CSS."
 image: "/assets/certificates/img/intensive-courses/origamid/html-and-css-for-beginners/front-en.jpg"
 image-alt: "Course at Origamid in HTML and CSS certificate."
-category: courses
+category: course
 tags:
-  - courses
+  - course
   - web design
   - html
   - css

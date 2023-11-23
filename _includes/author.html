@@ -1,0 +1,31 @@
+<style>
+  .post-type {
+    background-color: #fb0;
+  }
+
+  .competition {
+    background-color: #291;
+  }
+
+  .academics {
+    background-color: #1144aa;
+  }
+
+  .course {
+    background-color: #b19;
+  }
+
+  .certificate {
+    background-color: #a70;
+  }
+</style>
+
+<div class="author">
+  <div class="author-id">
+    <img src="{{ '/assets/img/institutes/' | append: post.institute | append: '.jpg' | relative_url}}" alt="">
+    <span class="institute">{{ post.institute | capitalize }}</span>
+  </div>
+  <div class="post-type {{post.category}}">
+    <p>{{ post.category }}</p>
+  </div>
+</div>

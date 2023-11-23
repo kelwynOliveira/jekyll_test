@@ -8,9 +8,9 @@ date: 2018-12-09 18:00:00 -0400
 description: "Course at Me Poupe in personal finances."
 image: "/assets/certificates/img/intensive-courses/me-poupe/jornada-da-desfudencia.jpg"
 image-alt: "Course at Me Poupe in personal finances certificate."
-category: courses
+category: course
 tags:
-  - courses
+  - course
   - finances
 ---
 
