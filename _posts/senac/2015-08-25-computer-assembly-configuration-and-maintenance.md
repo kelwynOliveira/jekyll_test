@@ -8,9 +8,9 @@ date: 2015-08-25 18:00:00 -0400
 description: "Course at SENAC in Computer assembly, configuration and maintenance."
 image: "/assets/certificates/img/intensive-courses/senac/computer-assembly-configuration-and-maintenance/front-pt.jpg"
 image-alt: "Course at SENAC in Computer assembly, configuration and maintenance certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - computer maintenance
 ---
 

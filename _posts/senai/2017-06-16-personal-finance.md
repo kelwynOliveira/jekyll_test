@@ -8,9 +8,9 @@ date: 2017-06-16 18:00:00 -0400
 description: "Course at SENAI in Personal finance."
 image: "/assets/certificates/img/intensive-courses/senai/personal-finance.jpg"
 image-alt: "Course at SENAI in Personal finance certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - finance
 ---
 

@@ -8,9 +8,9 @@ date: 2018-12-20 18:00:00 -0400
 description: "Course at SEBRAE in How to come up with creative ideas and innovate in practice."
 image: "/assets/certificates/img/intensive-courses/sebrae/how-to-come-up-with-creative-ideas-and-innovate-in-practice.jpg"
 image-alt: "Course at SEBRAE in How to come up with creative ideas and innovate in practice certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - entrepreneurship
   - inovation
 ---

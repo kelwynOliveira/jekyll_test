@@ -36,6 +36,17 @@ youtube_username: "@nolukai"
 twitter_username: KelwynKelwyn
 instagram_username: kelwyn.oliveira
 
+# Categories
+categories:
+  - experience
+  - education
+  - licences
+  - courses
+  - volunteering
+  - skills
+  - honor and awards
+  - projects
+
 # Build settings
 theme: minima
 

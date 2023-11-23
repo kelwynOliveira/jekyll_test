@@ -8,9 +8,9 @@ date: 2023-08-04 18:00:00 -0400
 description: "Course certificate at Instituto de Pesquisa Eldoarado about Android Open Source Project."
 image: "/assets/certificates/img/intensive-courses/eldorado/android-development-application-end-embeded-aosp/front-pt.jpg"
 image-alt: "Android development: application end embeded (AOSP) course certificate"
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - android
 ---
 

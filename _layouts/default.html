@@ -5,10 +5,27 @@
 
 <body>
 
+  {%- include inputs.html -%}
+
   {%- include header.html -%}
 
   <main class="page-content" aria-label="Content">
-    {{ content }}
+    {%- include curriculum.html -%}
+
+
+    <div class="noprint windows-div">
+      <div class="windows">
+        <aside class="folders">
+          <div class="window-content">
+            {%- include aside.html -%}
+          </div>
+        </aside>
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
   </main>
 
   {%- include footer.html -%}

@@ -8,9 +8,9 @@ date: 2016-11-07 18:00:00 -0400
 description: "Course at ITEGAM in applied statistics."
 image: "/assets/certificates/img/intensive-courses/itegam/applied-statistics/front-pt.jpg"
 image-alt: "Course at ITEGAM in applied statistics certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - statistics
 ---
 

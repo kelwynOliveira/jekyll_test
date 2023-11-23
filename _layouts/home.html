@@ -2,41 +2,22 @@
 layout: default
 ---
 
-<style>
-  .see-more {
-    text-align: center;
-    margin-top: 30px;
-  }
+<section class="container">
+  {{ content }}
+</section>
 
-  .see-more-link {
-    color: #333;
-    border-bottom: 1px solid #333;
-    padding: 5px;
-  }
 
-  .see-more-link:hover {
-    text-decoration: none;
-    border: none;
-    background-color: #fb0;
-  }
-</style>
-
-<div class="home">
-  <section class="container">
-    {{ content }}
-  </section>
-
-  <section class="container">
-    <ul class="post-list">
-      {%- for post in site.posts limit: 15 -%}
-      {%- include posts-presentation.html -%}
-      {%- endfor -%}
-    </ul>
-  </section>
-
-  <div class="container">
-    <div class="see-more">
-      <a class="see-more-link" href='{{ "/all/" | relative_url }}'>See more</a>
-    </div>
-  </div>
-</div>
+<section class="window-content">
+  <ul class="categories-list">
+    {% for category in site.categories %}
+    {% assign name = category[0] %}
+    {%- assign category_url = name | slugify: 'latin' -%}
+    <li>
+      <a class="link-category" href='{{ "/category/" | append: category_url  | relative_url }}'>
+        <img class="category-img" src="{{ '/assets/img/windows/folder.png' | relative_url }}" alt="Folder">
+        <span>{{ name | escape | capitalize }}</span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>

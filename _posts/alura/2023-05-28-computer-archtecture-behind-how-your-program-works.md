@@ -8,7 +8,7 @@ date: 2023-05-28 18:00:00 -0400
 description: "Course certificate at Alura about the computer archtecture behind how the programs works."
 image: "/assets/certificates/img/intensive-courses/alura/courses/computer-archtecture-behind-how-your-program-works/front-en.jpg"
 image-alt: "Computer archtecture: behind how your program works certificate"
-category: course
+category: courses
 tags:
   - course
   - computer archtecture

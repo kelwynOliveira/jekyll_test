@@ -8,9 +8,9 @@ date: 2018-12-20 18:00:00 -0400
 description: "Course at SEBRAE in Entrepreneurship: how to recognise successful entrepreneurial traits."
 image: "/assets/certificates/img/intensive-courses/sebrae/entrepreneurship-how-to-recognise-successful-entrepreneurial-traits.jpg"
 image-alt: "Course at SEBRAE in Entrepreneurship: how to recognise successful entrepreneurial traits certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - entrepreneurship
 ---
 

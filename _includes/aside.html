@@ -1,0 +1,9 @@
+<ul>
+  <li><a class="link-category" href='{{ "/" | relative_url }}'>Home</a></li>
+
+  {% for category in site.categories %}
+  {% assign name = category[0] %}
+  {%- assign category_url = name | slugify: 'latin' -%}
+  <li><a class="link-category" href='{{ "/category/" | append: category_url  | relative_url }}'>{{ name | escape | capitalize }}</a></li>
+  {%- endfor -%}
+</ul>
