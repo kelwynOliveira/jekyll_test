@@ -12,75 +12,78 @@
       <div class="space"></div>
     </div>
 
-    <div class="menu-item menu-item-file">
-      <button class="button" onclick="window.print();">
-        <img src="{{ '/assets/img/curriculum/print.png' | relative_url }}" alt="Print button image">
-        <span>Print</span>
-      </button>
+    <ul class="menu-items menu-item-file">
+      <li>
+        <button class="button" onclick="window.print();">
+          <img class="img-icon" src="{{ '/assets/img/curriculum/print.png' | relative_url }}" alt="Print button image">
+          <span>Print</span>
+        </button>
+      </li>
 
-      <a href="{{ '/assets/Kelwyn-Oliveira-Curriculum.pdf' | relative_url }}" download>
-        <button class="button">
-          <img src="{{ '/assets/img/curriculum/save.png' | relative_url }}" alt="Save button image">
+      <li>
+        <a class="button" href="{{ '/assets/Kelwyn-Oliveira-Curriculum.pdf' | relative_url }}" download>
+          <img class="img-icon" src="{{ '/assets/img/curriculum/save.png' | relative_url }}" alt="Save button image">
           <span>Save</span>
-        </button>
-      </a>
+        </a>
+      </li>
+    </ul>
 
-      <button class="button">
-        <img src="{{ '/assets/img/curriculum/share.png' | relative_url }}" alt="Share button image">
-        <span>Share</span>
-      </button>
-    </div>
+    <ul class="menu-items menu-item-view">
+      <li>
+        <label class="level-2 button" for="print-version">
+          <img class="img-icon" src="{{ '/assets/img/curriculum/print-version.png' | relative_url }}" alt="">
+          <span>Print version</label>
+        </label>
+      </li>
 
-    <div class="menu-item menu-item-view">
-      <label class="level-2 button" for="print-version">
-        <img src="{{ '/assets/img/curriculum/print-version.png' | relative_url }}" alt="">
-        <span>Print version</label>
-      </label>
+      <li>
+        <label class="level-2 button" for="windows-version">
+          <img class="img-icon" src="{{ '/assets/img/curriculum/windows-version.png' | relative_url }}" alt="">
+          <span>Windows version</span>
+        </label>
+      </li>
 
-      <label class="level-2 button" for="windows-version">
-        <img src="{{ '/assets/img/curriculum/windows-version.png' | relative_url }}" alt="">
-        <span>Windows version</span>
-      </label>
+    </ul>
 
-    </div>
-
-    <div class="menu-item menu-item-help">
-      <a href="mailto:kelwyn.oliveira@gmail.com?Subject=You%27re%20Hired!">
-        <button class="button">
-          <img src="{{ '/assets/img/curriculum/email.png' | relative_url }}" alt="">
+    <ul class="menu-items menu-item-help">
+      <li>
+        <a class="button" href="mailto:kelwyn.oliveira@gmail.com?Subject=You%27re%20Hired!">
+          <img class="img-icon" src="{{ '/assets/img/curriculum/email.png' | relative_url }}" alt="">
           <span>E-mail</span>
-        </button>
-      </a>
-
-      <a href="https://www.linkedin.com/in/kelwynoliveira/">
-        <button class="button">
-          <img src="{{ '/assets/img/curriculum/linkedin.png' | relative_url }}" alt="">
-          <span>LinkedIn</label>
-        </button>
-      </a>
-
-      <a href="https://github.com/kelwynOliveira">
-        <button class="button">
-          <img src="{{ '/assets/img/curriculum/github.png' | relative_url }}" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="button" href="https://www.linkedin.com/in/kelwynoliveira/">
+          <svg class="img-icon linkedin">
+            <use xlink:href="{{ '/assets/svg/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+          </svg>
+          <span>LinkedIn</span>
+          </button>
+        </a>
+      </li>
+      <li>
+        <a class="button" href="https://github.com/kelwynOliveira">
+          <svg class="img-icon github">
+            <use xlink:href="{{ '/assets/svg/minima-social-icons.svg#github' | relative_url }}"></use>
+          </svg>
           <span>GitHub</span>
-        </button>
-      </a>
-
-      <a href="https://kelwynoliveira.github.io/Portfolio/">
-        <button class="button">
-          <img src="{{ '/assets/img/curriculum/webpage.png' | relative_url }}" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="button" href="https://kelwynoliveira.github.io/Portfolio/">
+          <img class="img-icon" src="{{ '/assets/img/curriculum/webpage.png' | relative_url }}" alt="">
           <span>Webpage</span>
-        </button>
-      </a>
-
-      <a href="https://www.youtube.com/@nolukai">
-        <button class="button">
-          <img src="{{ '/assets/img/curriculum/youtube.png' | relative_url }}" alt="">
+        </a>
+      </li>
+      <li>
+        <a class="button" href="https://www.youtube.com/@nolukai">
+          <svg class="img-icon youtube">
+            <use xlink:href="{{ '/assets/svg/minima-social-icons.svg#youtube' | relative_url }}"></use>
+          </svg>
           <span>YouTube</span>
-        </button>
-      </a>
-
-    </div>
+        </a>
+      </li>
+    </ul>
 
   </nav>
 </header>
