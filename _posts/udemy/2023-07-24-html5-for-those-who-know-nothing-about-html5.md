@@ -8,9 +8,9 @@ date: 2023-07-24 18:00:00 -0400
 description: "Course at Udemy in HTML5."
 image: "/assets/certificates/img/intensive-courses/udemy/html5-for-those-who-know-nothing-about-html5.jpg"
 image-alt: "Course at Udemy in HTML5 for those who know nothing about HTML5 certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - html
 ---
 

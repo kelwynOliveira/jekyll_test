@@ -8,9 +8,9 @@ date: 2023-07-26 18:00:00 -0400
 description: "Course at Origamid in JavaScript - ES6."
 image: "/assets/certificates/img/intensive-courses/origamid/javascript-es6-course/front-en.jpg"
 image-alt: "Course at Origamid in JavaScript - ES6 certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - design
   - user interface
 ---

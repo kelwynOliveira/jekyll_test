@@ -8,9 +8,9 @@ date: 2023-07-16 18:00:00 -0400
 description: "Course at Udemy in Modelling proteins by homology."
 image: "/assets/certificates/img/intensive-courses/udemy/modelling-proteins-by-homology.jpg"
 image-alt: "Course at Udemy in Modelling proteins by homology certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - biology
 ---
 

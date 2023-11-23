@@ -8,9 +8,9 @@ date: 2018-12-21 18:00:00 -0400
 description: "Course at Udemy in Augmented Reality with Unity and Vuforia."
 image: "/assets/certificates/img/intensive-courses/udemy/augmented-reality-with-unity-and-vuforia.jpg"
 image-alt: "Course at Udemy in Augmented Reality with Unity and Vuforia certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - augmented reality
   - games
 ---

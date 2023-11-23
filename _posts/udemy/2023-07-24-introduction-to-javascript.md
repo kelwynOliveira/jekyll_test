@@ -8,9 +8,9 @@ date: 2023-07-24 18:00:00 -0400
 description: "Course at Udemy in JavaScript."
 image: "/assets/certificates/img/intensive-courses/udemy/introduction-to-javascript.jpg"
 image-alt: "Course at Udemy in Introduction to javascript certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - javascript
 ---
 

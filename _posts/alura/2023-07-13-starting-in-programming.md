@@ -8,9 +8,9 @@ date: 2023-07-13 18:00:00 -0400
 description: "Course certificate at Alura on introduction to programming."
 image: "/assets/certificates/img/intensive-courses/alura/degrees/programming/starting-in-programming/front-en.jpg"
 image-alt: "Starting in programming certificate"
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - javascript
   - html
   - css

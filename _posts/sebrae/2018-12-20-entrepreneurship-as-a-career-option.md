@@ -8,9 +8,9 @@ date: 2018-12-20 18:00:00 -0400
 description: "Course at SEBRAE in Entrepreneurship as a career option."
 image: "/assets/certificates/img/intensive-courses/sebrae/entrepreneurship-as-a-career-option.jpg"
 image-alt: "Course at SEBRAE in Entrepreneurship as a career option certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - entrepreneurship
 ---
 

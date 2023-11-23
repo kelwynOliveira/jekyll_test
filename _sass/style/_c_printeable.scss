@@ -9,10 +9,6 @@ To remove the printing date, title page, link and pagination on printing the pag
 */
 
 // Printed version
-* {
-  font: $base-font-weight #{$small-font-size}/#{$base-line-height}
-    $base-font-family;
-}
 
 a,
 a.active,
@@ -74,7 +70,7 @@ table {
   * {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
-    font: $base-font-weight 11px/1.125 $base-font-family;
+    font: 400 11px/1.125 monospace;
   }
 
   .printeable {

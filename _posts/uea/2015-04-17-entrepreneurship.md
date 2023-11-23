@@ -8,9 +8,9 @@ date: 2015-04-17 18:00:00 -0400
 description: "Course at UEA in Entrepreneurship."
 image: "/assets/certificates/img/intensive-courses/uea/entrepreneurship.jpg"
 image-alt: "Course at UEA in Entrepreneurship certificate."
-category: course
+category: courses
 tags:
-  - course
+  - courses
   - entrepreneurship
 ---
 
