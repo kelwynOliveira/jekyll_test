@@ -8,9 +8,9 @@ date: 2023-07-16 18:00:00 -0400
 description: "Course at Udemy in Algorithms and programming logic."
 image: "/assets/certificates/img/intensive-courses/udemy/algorithms-and-programming-logic-course.jpg"
 image-alt: "Course at Udemy in Algorithms and programming logic certificate."
-category: courses
+category: course
 tags:
-  - courses
+  - course
   - programming
 ---
 

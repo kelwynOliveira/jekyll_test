@@ -8,9 +8,9 @@ date: 2018-12-20 18:00:00 -0400
 description: "Course at SEBRAE in Entrepreneurship Identity."
 image: "/assets/certificates/img/intensive-courses/sebrae/entrepreneurship-identity.jpg"
 image-alt: "Course at SEBRAE in Entrepreneurship Identity certificate."
-category: courses
+category: course
 tags:
-  - courses
+  - course
   - entrepreneurship
 ---
 

@@ -8,9 +8,9 @@ date: 2018-12-27 18:00:00 -0400
 description: "Urutau Aerodesign participation certificate."
 image: "/assets/certificates/img/licences-and-certifications/uea/urutau/urutau-aerodesign-participation-certificate.jpg"
 image-alt: "Urutau Aerodesign participation certificate."
-category: awards
+category: competition
 tags:
-  - awards
+  - competition
   - academics
   - project
 ---

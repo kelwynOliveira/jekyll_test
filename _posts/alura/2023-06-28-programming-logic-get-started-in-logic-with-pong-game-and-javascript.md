@@ -8,9 +8,9 @@ date: 2023-06-28 18:00:00 -0400
 description: "Course certificate at Alura about logic using JavaScript to develop the pong game."
 image: "/assets/certificates/img/intensive-courses/alura/courses/programming-logic-get-started-in-logic-with-pong-game-and-javascript/front-en.jpg"
 image-alt: "Programming logic: get started in logic with pong game and JavaScript certificate"
-category: courses
+category: course
 tags:
-  - courses
+  - course
   - javascript
   - games
 ---

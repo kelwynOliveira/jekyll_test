@@ -8,9 +8,9 @@ date: 2020-11-23 18:00:00 -0400
 description: "Course at Origamid in WEB design."
 image: "/assets/certificates/img/intensive-courses/origamid/web-design-course/front-en.jpg"
 image-alt: "Course at Origamid in WEB design certificate."
-category: courses
+category: course
 tags:
-  - courses
+  - course
   - web design
 ---
 

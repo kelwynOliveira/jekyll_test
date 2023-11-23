@@ -8,9 +8,9 @@ date: 2014-12-22 18:00:00 -0400
 description: "High-school transcript in Mechatronics Technician."
 image: "/assets/certificates/img/licences-and-certifications/ifam/high-school-transcript/front-pt.jpg"
 image-alt: "High-school transcript in Mechatronics Technician."
-category: education
+category: academics
 tags:
-  - education
+  - academics
   - certificate
   - mechatronics
   - technician

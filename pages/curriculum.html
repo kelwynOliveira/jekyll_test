@@ -1,0 +1,49 @@
+---
+permalink: /curriculum/
+lang: en
+title: Kelwyn Oliveira's curriculum
+description: Kelwyn Oliveira's curriculum
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include /curriculum/head.html -%}
+
+<body noprint>
+
+  {%- include /curriculum/inputs.html -%}
+
+  {%- include /curriculum/header.html -%}
+
+  <main>
+    <section class="printeable container">
+      {%- include /curriculum/c-header.html -%}
+      {%- include /curriculum/c-history.html -%}
+      {%- include /curriculum/c-options.html -%}
+      {%- include /curriculum/c-files.html -%}
+      {%- include /curriculum/c-author.html -%}
+    </section>
+
+    <div class="noprint windows-div">
+      <section class="windows">
+        {%- include /curriculum/visual/aside-itens.html -%}
+        <aside class="folders">
+          <div class="window-content">
+            {%- include /curriculum/visual/aside.html -%}
+          </div>
+        </aside>
+        <article class="content">
+          <div class="window-content">
+            {%- include /curriculum/visual/article.html -%}
+          </div>
+        </article>
+      </section>
+    </div>
+
+  </main>
+
+  {%- include /curriculum/footer.html -%}
+
+</body>
+
+</html>
