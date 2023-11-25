@@ -6,7 +6,7 @@ title: "Introduction to python"
 institute: udemy
 date: 2023-07-18 18:00:00 -0400
 description: "Course at Udemy in Introduction to python."
-image: "/assets/certificates/img/intensive-courses/udemy/introduction-to-python.jpg"
+image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certificates/intensive-courses/udemy/introduction-to-python.jpg"
 image-alt: "Course at Udemy in Introduction to python certificate."
 category: course
 tags:
@@ -14,4 +14,4 @@ tags:
   - python
 ---
 
-Course certificate in Introduction to python at Udemy.
+See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/intensive-courses/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.
