@@ -6,7 +6,7 @@ title: "SAE Brazil Aerodesign competition"
 institute: sae
 date: 2017-12-08 18:00:00 -0400
 description: "SAE Brazil Aerodesign competition participation certificate."
-image: "/assets/certificates/img/licences-and-certifications/uea/urutau/sae-brazil-aerodesign-certificate.jpg"
+image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certificates/licences-and-certifications/uea/urutau/sae-brazil-aerodesign-certificate.jpg"
 image-alt: "SAE Brazil Aerodesign competition certificate."
 category: competition
 tags:
@@ -15,4 +15,4 @@ tags:
   - academics
 ---
 
-SAE Brazil Aerodesign competition certificate - 2017.
+See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/licences-and-certifications/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.

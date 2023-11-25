@@ -24,11 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   A personal website about development, technology, course, projects, carrer and life.
 # baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
 url: "https://kelwyn.me" # the base hostname & protocol for your site, e.g. http://example.com
-show_excerpts: true
+# show_excerpts: true
 author:
   name: "Kelwyn Oliveira"
   url: https://kelwyn.me/
-  image: "/assets/img/kelwyn-oliveira-perfil.png"
+  image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/gh-pages/img/portfolio/kelwyn-oliveira-perfil.png"
 image: "/assets/img/kelwyn-oliveira-perfil.png"
 github_username: kelwynOliveira
 linkedin_username: kelwynoliveira
