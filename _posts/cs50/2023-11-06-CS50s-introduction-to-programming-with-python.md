@@ -10,8 +10,11 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "CS50's introduction to programming with python course certificate"
 category: course
 tags:
-  - course
   - python
+  - unit test
+  - oop
+  - regular expressions
+  - exceptions
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/intensive-courses/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.

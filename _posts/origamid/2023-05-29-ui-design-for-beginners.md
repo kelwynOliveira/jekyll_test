@@ -10,9 +10,8 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Course at Origamid in UI design for beginners certificate."
 category: course
 tags:
-  - course
   - web design
-  - user iterface
+  - ui design
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/intensive-courses/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.

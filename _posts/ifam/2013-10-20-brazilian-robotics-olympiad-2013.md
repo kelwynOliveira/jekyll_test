@@ -10,8 +10,9 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Brazilian Robotics Olympiad (OBR) 2013 certificate"
 category: competition
 tags:
-  - competition
   - robots
+  - C
+  - nxt lego
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/licences-and-certifications/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.

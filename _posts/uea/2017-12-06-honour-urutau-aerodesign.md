@@ -10,7 +10,6 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Honour - Urutau Aerodesign certificate."
 category: competition
 tags:
-  - competition
   - project
   - academics
 ---

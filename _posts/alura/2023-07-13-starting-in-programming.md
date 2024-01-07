@@ -10,7 +10,6 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Starting in programming certificate"
 category: course
 tags:
-  - course
   - javascript
   - html
   - css

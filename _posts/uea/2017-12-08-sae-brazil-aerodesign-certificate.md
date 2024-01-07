@@ -10,7 +10,6 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "SAE Brazil Aerodesign competition certificate."
 category: competition
 tags:
-  - competition
   - project
   - academics
 ---

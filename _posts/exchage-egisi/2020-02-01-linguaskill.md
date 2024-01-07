@@ -10,8 +10,8 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Linguaskill - English language Cambridge Assessment certificate"
 category: certificate
 tags:
-  - certificate
-  - english assessment
+  - english
+  - language assessment
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/licences-and-certifications/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.

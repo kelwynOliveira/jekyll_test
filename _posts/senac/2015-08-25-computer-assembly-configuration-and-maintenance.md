@@ -10,7 +10,6 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Course at SENAC in Computer assembly, configuration and maintenance certificate."
 category: course
 tags:
-  - course
   - computer maintenance
 ---
 

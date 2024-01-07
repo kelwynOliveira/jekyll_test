@@ -10,9 +10,8 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Course at Origamid in Advanced UI Design certificate."
 category: course
 tags:
-  - course
-  - design
-  - user interface
+  - web design
+  - ui design
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/intensive-courses/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.

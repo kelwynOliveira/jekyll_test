@@ -10,7 +10,6 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Six-sigma - yellow belt certificate"
 category: certificate
 tags:
-  - certificate
   - six sigma
 ---
 

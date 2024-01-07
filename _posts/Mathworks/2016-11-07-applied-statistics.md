@@ -10,7 +10,6 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Course at MathWorks in MATLAB certificate."
 category: course
 tags:
-  - course
   - MATLAB
 ---
 

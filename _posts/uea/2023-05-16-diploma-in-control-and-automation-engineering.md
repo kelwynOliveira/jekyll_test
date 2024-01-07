@@ -10,7 +10,6 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Diploma in Control and Automation Engineering."
 category: academics
 tags:
-  - academics
   - certificate
   - diploma
 ---

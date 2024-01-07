@@ -10,8 +10,11 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Android development: application and embeded (AOSP) course certificate"
 category: course
 tags:
-  - course
   - android
+  - java
+  - adb
+  - aosp
+  - c++
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/intensive-courses/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.

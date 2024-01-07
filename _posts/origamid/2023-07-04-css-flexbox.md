@@ -10,10 +10,9 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Course at Origamid in CSS Flexbox certificate."
 category: course
 tags:
-  - course
   - web design
-  - css
   - front-end
+  - css
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/intensive-courses/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.
@@ -39,7 +38,7 @@ Click on the image to see the project:
 
 <div class="project">
 <a  href="https://kelwynoliveira.github.io/FlexBlog/" target="_blank">
-<img src="https://raw.githubusercontent.com/kelwynOliveira/FlexBlog/gh-pages/thumb.PNG" alt="FlexBlog project thumb">
+<img src="https://raw.githubusercontent.com/kelwynOliveira/FlexBlog/gh-pages/thumb.jpg" alt="FlexBlog project thumb">
 </a>
 
 <p class="github">

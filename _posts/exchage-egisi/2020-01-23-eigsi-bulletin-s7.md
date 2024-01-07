@@ -10,8 +10,11 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Bulletin of S7 at EIGSI - exchange in France"
 category: academics
 tags:
-  - academics
   - exchange
+  - engineering
+  - mechatronics
+  - english
+  - french
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/licences-and-certifications/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.

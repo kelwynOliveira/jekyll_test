@@ -10,8 +10,9 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Exchange opinion about BRAFITEC certificate"
 category: academics
 tags:
-  - academics
   - exchange
+  - engineering
+  - mechatronics
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/licences-and-certifications/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.

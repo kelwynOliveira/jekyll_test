@@ -10,7 +10,6 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Certification in Professional SCRUM Master I."
 category: certificate
 tags:
-  - certificate
   - scrum
   - agile
 ---

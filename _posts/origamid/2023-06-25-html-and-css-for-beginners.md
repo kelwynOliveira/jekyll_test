@@ -10,11 +10,10 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Course at Origamid in HTML and CSS certificate."
 category: course
 tags:
-  - course
   - web design
+  - front-end
   - html
   - css
-  - front-end
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/intensive-courses/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.
@@ -49,7 +48,7 @@ Click on the image to see the project:
 
 <div class="project">
 <a  href="https://kelwynoliveira.github.io/Bikcraft/" target="_blank">
-<img src="https://raw.githubusercontent.com/kelwynOliveira/Bikcraft/gh-pages/thumb.PNG" alt="Bikcraft project thumb">
+<img src="https://raw.githubusercontent.com/kelwynOliveira/Bikcraft/gh-pages/thumb.jpg" alt="Bikcraft project thumb">
 </a>
 
 <p class="github">
@@ -64,7 +63,7 @@ Click on the image to see the project:
 
 <div class="project">
 <a  href="https://kelwynoliveira.github.io/LoboPortfolio/" target="_blank">
-<img src="https://raw.githubusercontent.com/kelwynOliveira/LoboPortfolio/gh-pages/thumb.PNG" alt="Lobo Portfolio project thumb">
+<img src="https://raw.githubusercontent.com/kelwynOliveira/LoboPortfolio/gh-pages/thumb.jpg" alt="Lobo Portfolio project thumb">
 </a>
 
 <p class="github">

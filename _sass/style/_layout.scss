@@ -120,6 +120,22 @@
           color: $link-color;
         }
       }
+      .post-tags{
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        font-size: smaller;
+        li {
+          margin-right: 5px;
+          text-transform: uppercase;
+        }
+        li:not(:last-child)::after {
+          content: ", ";
+          width: 15px;
+          height: 15px;
+        }
+      }
       .excerpt {
         color: $grey-color;
       }
@@ -198,6 +214,7 @@
   .post-tags {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     gap: calc(#{$spacing-unit} / 2);
     justify-content: center;
     margin: 0;
@@ -306,4 +323,27 @@
   .rrs:hover .svg-icon {
     fill: #ff580a;
   }
+}
+
+// posts youtube video
+.yt-video {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// Album photos
+.album{
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 }

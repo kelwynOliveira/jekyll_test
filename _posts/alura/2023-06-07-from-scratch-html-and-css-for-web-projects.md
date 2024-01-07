@@ -10,7 +10,6 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "From scratch: HTML and CSS for web projects certificate"
 category: course
 tags:
-  - course
   - html
   - css
 ---
@@ -25,3 +24,20 @@ See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.gith
 - HTML and CSS: working with responsiveness and publishing projects
 - HTML and CSS: practising HTML/CSS
 - HTML and CSS: responsiveness with mobile-first
+
+Click on the image to see the project:
+
+<div class="project">
+<a  href="https://github.com/kelwynOliveira/aluramidi" target="_blank">
+<img src="https://raw.githubusercontent.com/kelwynOliveira/aluramidi/gh-pages/thumb.jpg" alt="WildBeast project thumb">
+</a>
+
+<p class="github">
+  <a  href="https://github.com/kelwynOliveira/aluramidi" target="_blank">
+    <svg class="svg-icon">
+        <use xlink:href="{{ '/assets/svg/minima-social-icons.svg#github' | relative_url }}"></use>
+    </svg>
+  <span>Project repository</span>
+  </a>
+</p>
+</div>

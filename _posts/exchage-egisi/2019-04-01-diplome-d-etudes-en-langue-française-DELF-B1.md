@@ -10,8 +10,8 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Diplôme d'Études en Langue Française (DELF) B1 certificate"
 category: certificate
 tags:
-  - certificate
   - french
+  - language assessment
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/licences-and-certifications/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.

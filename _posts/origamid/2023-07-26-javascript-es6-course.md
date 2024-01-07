@@ -10,9 +10,10 @@ image: "https://raw.githubusercontent.com/kelwynOliveira/Assets/main/img/certifi
 image-alt: "Course at Origamid in JavaScript - ES6 certificate."
 category: course
 tags:
-  - course
-  - design
-  - user interface
+  - javascript
+  - oop
+  - json
+  - regular expression
 ---
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/intensive-courses/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.
@@ -79,7 +80,7 @@ Click on the image to see the project:
 <div class="project">
 
 <a  href="https://kelwynoliveira.github.io/AnimaisFantasticos/" target="_blank">
-<img src="https://raw.githubusercontent.com/kelwynOliveira/AnimaisFantasticos/gh-pages/thumb.PNG" alt="Animais fantáticos project thumb">
+<img src="https://raw.githubusercontent.com/kelwynOliveira/AnimaisFantasticos/gh-pages/thumb.jpg" alt="Animais fantáticos project thumb">
 </a>
 
 <p class="github">
@@ -94,7 +95,7 @@ Click on the image to see the project:
 
 <div class="project">
 <a  href="https://kelwynoliveira.github.io/Slide/" target="_blank">
-<img src="https://raw.githubusercontent.com/kelwynOliveira/Slide/gh-pages/thumb.PNG" alt="Slide project thumb">
+<img src="https://raw.githubusercontent.com/kelwynOliveira/Slide/gh-pages/thumb.jpg" alt="Slide project thumb">
 </a>
 
 <p class="github">
@@ -109,7 +110,7 @@ Click on the image to see the project:
 
 <div class="project">
 <a  href="https://kelwynoliveira.github.io/ButtonCreator/" target="_blank">
-<img src="https://raw.githubusercontent.com/kelwynOliveira/ButtonCreator/gh-pages/thumb.PNG" alt="Button creator project thumb">
+<img src="https://raw.githubusercontent.com/kelwynOliveira/ButtonCreator/gh-pages/thumb.jpg" alt="Button creator project thumb">
 </a>
 
 <p class="github">
