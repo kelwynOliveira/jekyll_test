@@ -16,7 +16,7 @@ tags:
 
 See PDF certificate <a href="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/kelwynOliveira/Assets/main/PDF/certificates/licences-and-certifications/{{page.institute}}{{page.permalink}}.pdf" target="_blank">here</a>.
 
-Credly badge [here](https://www.credly.com/badges/784f07fa-53c3-4b61-b54b-21f599c269a0/public_url).
+Credly badge <a href="https://www.credly.com/badges/784f07fa-53c3-4b61-b54b-21f599c269a0/public_url" target="_blank">here</a>.
 
 
-Certificate from [C++ Institute](https://cppinstitute.org/cle).
+Certificate from <a href="https://cppinstitute.org/cle" target="_blank">C++ Institute</a>.
